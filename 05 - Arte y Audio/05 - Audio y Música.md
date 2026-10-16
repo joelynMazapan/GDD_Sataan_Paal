@@ -30,10 +30,12 @@ Define la identidad sonora y cómo el audio comunica información al jugador.
 
 ## Efectos de sonido
 
-| Evento               | Sonido               | Propósito                                      |
-| -------------------- | -------------------- | ---------------------------------------------- |
-| Visto por el enemigo | Visto por el enemigo | Trasmitir un aviso al jugador del avistamiento |
-| Lanzamiento de rocas |                      | Dar feedback de la acción de lanzar            |
+| Evento               | Sonido                  | Propósito                                      |
+| -------------------- | ----------------------- | ---------------------------------------------- |
+| Visto por el enemigo | Suspiro de el enemigo   | Trasmitir un aviso al jugador del avistamiento |
+| Lanzamiento de rocas | Sonido de roca          | Dar feedback de la acción de lanzar            |
+| Recoger objeto       | Sonido brillante        | Feedback de la acción de recoger un objeto     |
+| Esconderse           | Sonido de cajas u hojas | Feedback de la acción de esconderse            |
 
 ## Audio espacial
 
