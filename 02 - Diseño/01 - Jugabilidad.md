@@ -2,10 +2,17 @@
 
 ## Descripción de la sección
 
+La jugabilidad explica **qué hace el jugador, qué recibe a cambio y cómo evoluciona la experiencia**.
+
 El jugador avanza a través de niveles lineales basados en el sigilo y la resolución de puzles de entorno, intercalados con recolección de fragmentos narrativos.
 
 ## Bucle principal de juego
 
+Describe el ciclo que se repite durante la experiencia.
+
+**Ejemplo conceptual:**
+
+`Explorar → Encontrar desafío → Resolver → Obtener recompensa → Mejorar → Explorar` 
 El jugador avanza a través de niveles lineales basados en el sigilo y la resolución de puzles de entorno, intercalados con recolección de fragmentos narrativos.
 
 **Bucle del proyecto:**
