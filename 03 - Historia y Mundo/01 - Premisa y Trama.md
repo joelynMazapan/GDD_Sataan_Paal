@@ -29,7 +29,7 @@ Al encontrarse con el guardia esquelético, Iktan deberá evitar que lo descubra
 En la selva, Iktan debe escapar de un nahual utilizando la vegetación, objetos arrojadizos y elementos del entorno. Después de superar esta amenaza, obtiene unos trompos de madera con diseños de gatitos, relacionados con sus juguetes favoritos.
 Más adelante, llega a una ciudad colonial abandonada, donde una mujer de blanco le revela que se encuentra en el purgatorio y que debe llegar a la iglesia para regresar a casa. Allí, Iktan evade esqueletos y almas errantes hasta encontrar un saco de mandarinas, asociado con los recuerdos de su familia y la Navidad.
 
-_Esta etapa incrementa la dificultad y desarrolla el misterio sobre la verdadera condición de Iktan._
+Esta etapa incrementa la dificultad y desarrolla el misterio sobre la verdadera condición de Iktan.
 
 ### Acto / Etapa 3 — La verdad y el descanso
 Iktan llega al cementerio y se aproxima a la iglesia, donde una niebla rojiza intensifica su miedo. Con la ayuda de Abbi, avanza entre las tumbas hasta llegar al altar principal.
