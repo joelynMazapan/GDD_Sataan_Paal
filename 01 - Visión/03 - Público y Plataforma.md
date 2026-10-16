@@ -22,15 +22,15 @@ No se requieren conocimientos previos. El jugador deberá aprender los controles
 
 ## Plataforma
 
-| Elemento                | Decisión                                      |
-| ----------------------- | --------------------------------------------- |
-| Plataforma principal    | PC                                            |
-| Plataformas secundarias | Navegador web, como demostración.             |
-| Método de entrada       | _Teclado_ / Mouse / Control / Pantalla táctil |
-| Resolución objetivo     | 1920 × 1080 píxeles                           |
-| Relación de aspecto     | 16:9                                          |
-| Rendimiento objetivo    | 60 FPS                                        |
-| Conexión requerida      | Sí / _No_                                     |
+| Elemento                | Decisión                                    |     |
+| ----------------------- | ------------------------------------------- | --- |
+| Plataforma principal    | PC                                          |     |
+| Plataformas secundarias | Navegador web, como demostración.           |     |
+| Método de entrada       | Teclado / Mouse / Control / Pantalla táctil |     |
+| Resolución objetivo     | 1920 × 1080 píxeles                         |     |
+| Relación de aspecto     | 16:9                                        |     |
+| Rendimiento objetivo    | 60 FPS                                      |     |
+| Conexión requerida      | Sí / **_No_**                               |     |
 
 ## Restricciones de plataforma
 

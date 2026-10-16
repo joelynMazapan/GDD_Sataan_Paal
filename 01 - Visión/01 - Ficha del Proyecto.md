@@ -9,7 +9,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | Campo                        | Información                                                                                                                                        |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nombre del proyecto**      | Sata'an paal (niño perdido en maya)<!-- Nombre oficial o nombre temporal -->                                                                       |
-| **Nombre clave**             | <!-- Identificador interno si existe -->                                                                                                           |
+| **Nombre clave**             | sataan<!-- Identificador interno si existe -->                                                                                                     |
 | **Versión del GDD**          | 0.1.0                                                                                                                                              |
 | **Estado del proyecto**      | _Concepto_ / Preproducción / Producción / Pruebas / Publicado                                                                                      |
 | **Equipo**                   | - Canul Gijon Yoel Alfredo<br>- Cortés Mancilla Renata<br>- Cruz Santiago Zaidy Itzamara<br>- Reyes del Ángel Brandon Michelle<!-- Integrantes --> |
@@ -93,5 +93,6 @@ Videojuego 3D de sigilo y acción-aventura en el que el jugador deberá explorar
 
 ¿Qué tendría que suceder para considerar que el videojuego cumplió su propósito?
 
+El videojuego habrá cumplido su propósito si logra impactar profundamente al jugador tanto a nivel emocional como mecánico. Narrativamente, el éxito se alcanza cuando el jugador empatiza con Iktan y Abbi, sufre un impacto genuino al descubrir en el altar de muertos que el niño fue víctima de un secuestro, y reflexiona sobre el crudo mensaje final de concientización. A nivel de jugabilidad, el título triunfará si ofrece una experiencia de sigilo tensa pero justa, donde evadir enemigos con distracciones sonoras y usar el entorno para derrotar a los jefes se sienta gratificante en lugar de frustrante. Finalmente, el proyecto será un éxito integral si el equipo logran programar estas mecánicas de forma estable y fluida, garantizando que el jugador se mantenga atrapado por la historia y llegue hasta el conmovedor desenlace.
 
 > **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →
