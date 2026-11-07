@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Diseño/01 - Jugabilidad.md",
+                "file": "05 - Arte y Audio/05 - Audio y Música.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Jugabilidad"
+              "title": "05 - Audio y Música"
             }
           }
         ]
@@ -217,6 +217,7 @@
     "Sin título 1.base",
     "Sin título.base",
     "README.md",
-    "00 - Acerca de esta guía.md"
+    "00 - Acerca de esta guía.md",
+    "00 - Índice.md"
   ]
 }
