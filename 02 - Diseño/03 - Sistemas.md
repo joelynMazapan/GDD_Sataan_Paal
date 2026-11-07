@@ -11,7 +11,6 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 | Sigilo y Detección     | Gestionar cuándo el jugador es invisible, cuándo hace ruido y cómo reaccionan los enemigos a su presencia.  | Sistema de Movimiento del Jugador, Gestor de Entorno. | En diseño |
 | Distracción            | Permitir al jugador alterar las rutas de los enemigos usando objetos arrojadizos.                           | Sigilo y Detección.                                   | En diseño |
 | Movimiento del Jugador | Controlar el desplazamiento, la velocidad y el estado de Iktan.                                             | Entradas del Usuario.                                 | En diseño |
-| Pánico / Cordura       | Limitar la visión y movilidad del jugador en zonas de alto estrés, obligándolo a interactuar con Abbi.      | Movimiento del Jugador.                               | En diseño |
 | Gestor de Entorno      | Controlar las interacciones que permiten derrotar a los jefes usando elementos del escenario.               | Distracción, Movimiento del Jefe.                     | En diseño |
 | Progresión y Guardado  | Gestionar la recolección de ofrendas y el avance de nivel a través de la construcción del Altar de Muertos. | Ninguna                                               | En diseño |
 
