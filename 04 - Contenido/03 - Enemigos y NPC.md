@@ -1,9 +1,5 @@
 # Enemigos y NPC
 
-## Descripción de la sección
-
-Documenta las entidades controladas por el juego y su comportamiento.
-
 ## Plantilla de enemigo
 
 ### Nombre

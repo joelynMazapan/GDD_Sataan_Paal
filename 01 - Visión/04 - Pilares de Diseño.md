@@ -1,54 +1,24 @@
 # Pilares de Diseño
-----
-## Descripción de la sección
 
-Los pilares son los principios que deben mantenerse durante todo el desarrollo. Cuando dos ideas entren en conflicto, los pilares ayudan a decidir cuál encaja mejor con la identidad del juego.
+## Pilar 1 — Sigilo como principal recurso de supervivencia
 
-## Pilar 1 — Tensión y sigilo
-----
-**Descripción:**
-Mantener al jugador en un estado constante de tensión e incertidumbre, haciendo que cada movimiento implique un riesgo y que ser descubierto tenga consecuencias importantes.
+El jugador debe evitar ser detectado por los enemigos mediante la observación de sus patrones de movimiento, el aprovechamiento de coberturas y la identificación de rutas seguras. Las persecuciones y las consecuencias de ser descubierto refuerzan la sensación de vulnerabilidad y mantienen la tensión durante el recorrido.
 
-**¿Cómo se refleja en el juego?**
-- Enemigos que representan una amenaza durante la exploración.
-- Uso de escondites, sombras y objetos para distraer a los enemigos.
-- Persecuciones que obligan al jugador a reaccionar rápidamente.
-- Reinicio de la partida al ser descubierto, aumentando la importancia de cada decisión.
 
-## Pilar 2 — Desafío y superación
-----
-**Descripción:**
-Motivar al jugador a superar los obstáculos mediante la observación, la estrategia y el aprendizaje de sus errores, generando satisfacción al completar cada escenario.
+## Pilar 2 — Exploración y aprovechamiento del entorno
 
-**¿Cómo se refleja en el juego?**
-- Escenarios con obstáculos y enemigos que requieren distintas estrategias.
-- Objetos que pueden utilizarse para distraer o superar amenazas.
-- Situaciones que exigen identificar oportunidades y planear movimientos.
-- Desafíos progresivos que impulsan al jugador a seguir intentándolo hasta avanzar.
+Los escenarios presentan obstáculos, elementos interactivos y objetos que permiten resolver situaciones de peligro. Las piedras y otros recursos disponibles pueden utilizarse para generar distracciones, modificar el comportamiento de los enemigos y facilitar el avance. La exploración permite encontrar elementos relacionados con el desarrollo de la historia.
 
-## Pilar 3 — Narrativa emocional y cultura mexicana
-----
-**Descripción:**
-Construir una experiencia narrativa que combine el misterio sobrenatural con elementos de la cultura mexicana, utilizando la historia de Iktan para transmitir el valor de la memoria, el amor familiar y las consecuencias humanas del secuestro.
 
-**¿Cómo se refleja en el juego?**
-- Cuatro escenarios que revelan progresivamente fragmentos de la historia.
-- Abbi como compañera espiritual que brinda apoyo durante el recorrido.
-- Objetos significativos que representan recuerdos y vínculos familiares.
-- Elementos como el altar de Día de Muertos, las ofrendas y las criaturas del folclore mexicano.
-- Un desenlace que transforma el significado del viaje y revela el verdadero destino de Iktan.
+## Pilar 3 — Narrativa que genera reflexión
 
-## Reglas de decisión
+La historia de Iktan aborda las consecuencias del secuestro y su impacto en las víctimas y sus familias. Mediante el descubrimiento progresivo de acontecimientos y recuerdos, el jugador reconstruye el pasado del protagonista hasta comprender el significado de su travesía. La relación entre Iktan y Abbi contribuye al desarrollo emocional de la experiencia y al mensaje final del videojuego.
 
-Antes de incorporar una característica importante, preguntar:
 
-- ¿Refuerza uno de nuestros pilares?
-- ¿Mejora la experiencia principal?
-- ¿Justifica el costo de desarrollo?
-- ¿Complica innecesariamente otro sistema?
+## Pilar 4 — Ambientación que fortalece la inmersión
 
-> [!warning] Evitar
-> Convertir los pilares en frases genéricas como “que sea divertido”. Deben describir decisiones concretas de diseño.
+Los escenarios tridimensionales, los personajes y los elementos audiovisuales construyen una atmósfera de fantasía oscura con referencias a la cultura mexicana y al Día de Muertos. La iluminación, los efectos visuales, la música y los sonidos ambientales acompañan las situaciones de exploración y peligro, reforzando la tensión y la conexión del jugador con el mundo del videojuego.
+
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Público y Plataforma]] · [[01 - Jugabilidad]] →
