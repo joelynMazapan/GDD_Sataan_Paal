@@ -1,78 +1,69 @@
 # Jugabilidad
 
-## Descripción de la sección
-
-La jugabilidad explica **qué hace el jugador, qué recibe a cambio y cómo evoluciona la experiencia**.
-
-El jugador avanza a través de niveles lineales basados en el sigilo y la resolución de puzles de entorno, intercalados con recolección de fragmentos narrativos.
-
 ## Bucle principal de juego
 
-Describe el ciclo que se repite durante la experiencia.
+**Observar → identificar cobertura y salida → distraer → desplazarse sin ser visto → manipular el entorno → comprobar el resultado → avanzar.**
 
-**Ejemplo conceptual:**
+En la Selva, este ciclo culmina al atraer al Nahual bajo el techo de las ruinas y derribar una columna. La recompensa es la apertura del camino y una pausa narrativa: tras el derrumbe aparece una mesa espectral, inicio del altar de muertos. Iktan se acerca e interactúa para observar una breve manifestación del recuerdo familiar; al terminar, los árboles se abren hacia la Iglesia. Esta escena no requiere recoger ni depositar objetos y no concede una herramienta nueva.
 
-`Explorar → Encontrar desafío → Resolver → Obtener recompensa → Mejorar → Explorar` 
-El jugador avanza a través de niveles lineales basados en el sigilo y la resolución de puzles de entorno, intercalados con recolección de fragmentos narrativos.
+En la Iglesia, el altar revela el destino de Iktan. El jugador combina piedras y cobertura para retirar las tablas de tres vitrales. Al despejar el último, la luz desintegra al Diablo y con la obtención de su propia foto, permite alcanzar el sendero de cempasúchil.
 
-**Bucle del proyecto:**
-Observar rutinas enemigas → Ocultarse en coberturas → Lanzar rocas (Distraer) → Avanzar por zonas seguras → Sobrevivir a persecución/Trampa de entorno (Jefe) → Obtener objeto de ofrenda (Recompensa) → Construir Altar (Historia) → Explorar siguiente nivel.
 ## Acciones principales del jugador
 
-| Acción               | Propósito                                                       | Resultado                                                                                                                                                                     |
-| -------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Caminar              | Desplazamiento básico y exploración del entorno.                | Movimiento a velocidad estándar. Genera un nivel de ruido moderado (alerta a enemigos cercanos si no se tiene cuidado). Ideal para explorar cuando no hay peligro a la vista. |
-| Caminar con sigilo   | Evitar la detección visual y auditiva.                          | El personaje se mueve más lento pero no hace ruido.                                                                                                                           |
-| Lanzar Rocas         | Crear distracciones sonoras.                                    | El sonido de la roca atrae al enemigo más cercano a ese punto durante unos segundos, despejando el camino.                                                                    |
-| Correr               | Escapar de enemigos durante las fases de persecución.           | Permite avanzar rápido o evitar ataques de área, pero genera mucho ruido y alerta a todos en la zona.                                                                         |
-| Interactuar con Abbi | Reducir el medidor de miedo.                                    | Restaura la cordura del jugador, disipando la niebla oscura de la pantalla para recuperar la visibilidad.                                                                     |
-| Esconderse           | Evita ser descubierto por los enemigos por medio del escondite. | Permite esconderse con cosas del entorno para no ser descubierto por los enemigos y asi pasar de nivel                                                                        |
+
+| Acción                 | Propósito                                                      | Resultado                                                                                                 |
+| ----------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Caminar                 | Desplazamiento básico y exploración del entorno.              | Velocidad media y ruido moderado                                                                          |
+| Agacharse               | Reducir silueta y ruido                                         | Movimiento lento; la cobertura sigue siendo necesaria                                                     |
+| Correr                  | Cruzar una abertura.                                            | Mayor velocidad y ruido; sin invulnerabilidad                                                             |
+| Lanzar piedras          | Leer rutas, obstáculos y haces de luz                          | Permite planificar sin desplazar a Iktan                                                                  |
+| Interactuar con Abbi    | Reducir el medidor de miedo.                                    | Restaura la cordura del jugador, disipando la niebla oscura de la pantalla para recuperar la visibilidad. |
+| Esconderse              | Evita ser descubierto por los enemigos por medio del escondite. | Permite esconderse con cosas del entorno para no ser descubierto por los enemigos y asi pasar de nivel    |
+| Seguir indicios de Abbi | Reconocer peligro u objetivos                                   | Ayuda contextual sin resolver el desafío                                                                 |
 
 ## Experiencia segundo a segundo
 
-¿Qué hace el jugador durante los primeros minutos?
-Durante los primeros minutos, el jugador analiza el terreno. Observa el movimiento del personaje, identifica los conos de visión de los enemigos  y los radios de sonido. Se la pasa midiendo tiempos, moviéndose de cobertura en cobertura, y apuntando la parábola para lanzar rocas a rincones estratégicos.
+El jugador comprueba hacia dónde mira la amenaza, mantiene un obstáculo entre ella e Iktan y decide cuándo moverse. Al apuntar ve la trayectoria prevista del objeto; al lanzarlo escucha el impacto y observa la reacción enemiga. La interfaz distingue entre ocultamiento visual, sospecha y detección. Estar oculto no significa ser inaudible.
 
 ## Experiencia minuto a minuto
 
-¿Qué actividades se repiten durante una sesión?
-A lo largo de la sesión, el jugador planifica rutas. Entra a una zona, estudia la patrulla enemiga, lanza una roca para desviar al guardia, corre hacia el siguiente escondite y recolecta objetos de "lore" ocultos en el mapa para entender la historia antes de llegar al jefe de la zona.
+Cada tramo presenta una ruta breve con varias posiciones de cobertura. El jugador observa un ciclo, crea una abertura y alcanza el siguiente punto seguro. Las interacciones de objetivo se colocan en posiciones que exigen preparar una distracción antes de actuar. Las pistas ambientales son parte del recorrido; no se necesita un sistema adicional de coleccionables para comprender la historia.
+
 ## Experiencia a largo plazo
 
-¿Qué hace que el jugador quiera continuar?
-El jugador quiere continuar para descubrir la verdad detrás del mundo en el que está atrapado y para ver el Altar de Día de Muertos construirse piso por piso. El deseo de salvar el alma de Iktan y reunirlo simbólicamente con su familia a través de la ofrenda es el motor narrativo y emocional del juego.
+El aprendizaje pasa de ocultarse y lanzar piedras a coordinar posición enemiga, duración del señuelo e interacción con el entorno. La motivación narrativa cambia de buscar una salida a comprender el altar y acompañar a Iktan hacia el descanso. La revelación ocurre al entrar en la Iglesia, antes del enfrentamiento final.
 
 ## Condición de victoria
 
-¿Qué debe lograr el jugador para avanzar o terminar?
-- **A corto plazo (Por nivel):** Sobrevivir a la persecución final, usar el entorno para inmovilizar al jefe del nivel y recoger el objeto de ofrenda.
-- **A largo plazo (Final):** Llegar a la iglesia, derribar las tablas de los vitrales usando sigilo para derrotar a la Sombra, y completar el altar.
+* **Selva:** neutralizar al Nahual con el derrumbe, completar la escena de la mesa espectral y cruzar el paso abierto.
+* **Iglesia:** despejar los tres vitrales, presenciar la disolución del Diablo y recorrer el sendero final.
+* **Partida:** terminar la despedida y mostrar el mensaje social y los créditos.
 
 ## Condición de derrota
 
-¿Qué situaciones provocan fracaso?
-- Ser atrapado por el cono de visión de un guardia sin poder escapar a tiempo (el enemigo te alcanza).
-- Ser aplastado o alcanzado por los ataques de área de los jefes durante las persecuciones.
-- Que el medidor de "miedo" se llene por completo sin haber abrazado a Abbi, paralizando a Iktan y dejándolo a merced del enemigo.
+Cuando el jugador es atrapado .La derrota lleva al último punto de control y nunca consume vidas.
 
 ## Ritmo
 
 Describe cómo alternan:
 
-- Exploración: El jugador recorre zonas buscando lore y entendiendo el mapa.
-- Acción: El jugador es descubierto y debe huir en una persecución frenética o esquivar los ataques de un jefe.
-- Descanso: : Tras vencer al jefe, el ambiente se calma, la música se vuelve nostálgica y el jugador recoge su ofrenda.
-- Desafío: Zonas de sigilo puro.
-- Recompensa
-- Historia: El jugador coloca la ofrenda en el altar, asimilando la narrativa antes de volver a la exploración.
+
+| **Momento**           | **Tratamiento**                                   |
+| --------------------- | ------------------------------------------------- |
+| Inicio de la Selva    | Aprender movimiento, cobertura y piedras con Abbi |
+| Acecho y ruinas       | Encadenar rutas de sigilo y preparar el derrumbe  |
+| Mesa y transición    | Alivio, recuerdo familiar y camino directo        |
+| Entrada en la Iglesia | Revelación y lectura del espacio                 |
+| Vitrales              | Coordinar señuelos y haces de luz                |
+| Despedida             | Sendero, mensaje y créditos                      |
 
 ## Principios de interacción
 
-¿Qué reglas debe seguir el juego para que las acciones del jugador sean claras, consistentes y predecibles?
-
-- **Visibilidad predecible:** Los enemigos siempre deben tener un indicador visual claro de hacia dónde miran. Si el jugador no está en el cono, no es visto.
-- **Regla de Sonido Consistente:** Las rocas siempre tienen el mismo alcance de sonido. Los enemigos siempre priorizan investigar el sonido de la roca por encima de su ruta de patrullaje habitual.
-- **Cero combate directo:** El jugador debe tener claro que atacar no es una opción; el botón de acción es estrictamente para evadir, lanzar objetos o manipular trampas del entorno.
-- **Feedback de Estado:** El jugador debe saber de inmediato si está oculto o si ha sido detectado.
+1. Las amenazas comunican su orientación mediante animación, sonido y señales visuales.
+2. Una cobertura sólida bloquea la visión si oculta el volumen de Iktan; agacharse en un espacio abierto no garantiza seguridad.
+3. Las distracciones atraen hacia el sonido y no revelan automáticamente la ubicación del lanzador.
+4. Iktan resuelve los enfrentamientos mediante el escenario. Los proyectiles no causan daño.
+5. Abbi orienta sin alertar enemigos, bloquear caminos ni realizar las interacciones del jugador.
+6. La niebla ambiental conserva la lectura de las rutas y no modifica automáticamente la movilidad.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Pilares de Diseño]] · [[02 - Mecánicas]] →

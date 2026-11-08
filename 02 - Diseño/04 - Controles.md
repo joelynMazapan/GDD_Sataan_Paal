@@ -6,49 +6,47 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 
 ## Mapa de controles
 
-| Acción                                         | Teclado                                   | Mouse                  | Control   | Táctil    |
-| ---------------------------------------------- | ----------------------------------------- | ---------------------- | --------- | --------- |
-| Mover a Iktan                                  | Teclas W, A, S, D / Flechas direccionales | No aplica              | No aplica | No Aplica |
-| Moverse en sigilo                              | Mantener Shift izquierdo                  | No aplica              | No Aplica | No Aplica |
-| Apuntar Distracción                            | No aplica                                 | Mantener Click derecho | No Aplica | No Aplica |
-| Lanzar Distracción                             | No aplica                                 | Click izquierdo        | No Aplica | No Aplica |
-| Correr / Esquivar<br>                          | Barra EspaciadoraN                        | No aplica              | No Aplica | No Aplica |
-| Interactuar (Abrazar a Abbi / Activar trampas) | Tecla E                                   | No aplica              | No Aplica | No Aplica |
-| Menú / Pausa                                   | Tecla Esc                                 | No aplica              | No aplica | No Aplica |
+
+| Acción                           | Teclado                             | Mouse                  | Control   | Táctil   |
+| --------------------------------- | ----------------------------------- | ---------------------- | --------- | --------- |
+| Movimiento                        | Teclas W, A, S, D                   | No aplica              | No aplica | No Aplica |
+| Camara                            | Movimiento del ratón               | No aplica              | No Aplica | No Aplica |
+| Agacharse                         | Ctrl izquierdo                      | Mantener Click derecho | No Aplica | No Aplica |
+| Correr                            | Mantener Mayús izquierdo           | Click izquierdo        | No Aplica | No Aplica |
+| <br>Apuntar                       | Mantener botón derecho             | No aplica              | No Aplica | No Aplica |
+| Lanzar                            | Botón izquierdo mientras se apunta | No aplica              | No Aplica | No Aplica |
+| Mesa espectral / avanzar diálogo | E                                   | No aplica              | No aplica | No Aplica |
+| Derribar columna / retirar tablas | Mantener E durante 2 s              | No aplica              | No aplica | No aplica |
+| Pausa / volver                    | Esc                                 | No aplica              | No aplica | No aplica |
+| Confirmar menú                   | Enter o botón izquierdo            | No aplica              | No aplica | No aplica |
+| Navegar menú                     | Flechas, WASD o ratón              | No aplica              | No aplica | No aplica |
 
 ## Principios de control
 
-- Los controles deben ser consistentes.
-- Las acciones críticas deben ser fáciles de identificar.
-- Debe existir retroalimentación visual, sonora o háptica cuando corresponda.
-- Evitar combinaciones innecesariamente complejas.
+* El desplazamiento y la cámara conservan una respuesta consistente en ambos niveles.
+* Se permite mover a Iktan mientras apunta a velocidad de caminar o agachado; iniciar apuntado cancela la carrera.
+* La cámara retrocede ante paredes sin atravesarlas ni permitir que el modelo desaparezca dentro de ellas.
+* Mantener E ocupa la interacción; mover al personaje o iniciar apuntado la cancela antes de ejecutar la nueva acción.
+* El centro de la pantalla prioriza un único objetivo válido situado a un máximo de 1,5 m y sin obstrucción.
+* Las interfaces capturan la entrada del ratón: pulsar una opción nunca dispara una piedra al cerrar el menú.
 
 ## Reasignación
 
-¿El jugador puede cambiar los controles?
-Sí, el jugador podrá reasignar los controles en el menú de "Opciones > Controles" para Teclado.
+Se propone permitir reasignar acciones, restaurar valores iniciales y guardar preferencias. Si una asignación entra en conflicto con otra del mismo contexto, se informa antes de aplicarla. Se puede elegir entre alternar o mantener para agacharse y para apuntar. La carrera puede alternarse como opción de accesibilidad y se cancela al detenerse, agacharse o apuntar.
+
+La interacción prolongada ofrece una alternativa de pulsar para iniciar y volver a pulsar para cancelar; mantiene los mismos 2 s de exposición. También se proponen sensibilidad, inversión vertical, subtítulos y reducción del movimiento de cámara. La interfaz debe poder operarse sin ratón.
 
 ## Entrada y retroalimentación
 
-Describe qué ocurre inmediatamente después de cada entrada importante.
 
-- **Agacharse (Sigilo):**
-    
-- _Entrada:_ Presionar y mantener Shift 
-- _Retroalimentación Inmediata:_ Iktan cambia a una animación de cuclillas. Si está oculto en la oscuridad o tras una cobertura válida, su modelo 2D se oscurece ligeramente  para confirmar visualmente al jugador que es "invisible". La cámara se acerca para aumentar la sensación de sigilo.
-- **Apuntar Roca:**
-
-    - _Entrada:_ Mantener Click Derecho .        
-    - _Retroalimentación Inmediata:_ Iktan levanta el brazo. Aparece una línea punteada desde su mano hasta el suelo, terminando en un círculo que representa el radio de sonido.
-        
-- **Lanzar Roca:**
-    
-    - _Entrada:_ Click Izquierdo.
-    - _Retroalimentación Inmediata:_ Animación rápida de lanzamiento. Al impactar el suelo, se reproduce un sonido seco ("¡CLACK!") y una onda expansiva visual muy sutil (un anillo blanco que se expande rápido y desaparece) marca el radio exacto donde los enemigos escucharon el ruido. Si el jugador usa mando, hay una ligera vibración (háptica) al momento del impacto.
-        
-- **Interactuar (Abrazar a Abbi):**
--
-    - _Entrada:_ Mantener presionado E .
-    - _Retroalimentación Inmediata:_ Iktan se detiene y acaricia a Abbi. Se escucha un sonido de respiración calmada, un pequeño destello brillante emana de la perrita de azúcar, y la viñeta oscura (niebla de pánico) que cubría la pantalla del jugador retrocede rápidamente, aclarando la visión.
+| Entrada              | Respuesta visual                                                  | Respuesta sonora                                |
+| -------------------- | ----------------------------------------------------------------- | ----------------------------------------------- |
+| Agacharse            | Cambio de postura; icono de ocultamiento si se cumplen las reglas | Breve transición a derrota sin escena gráfica |
+| Apuntar              | Trayectoria e impacto previsto; señal de obstrucción            | Señal discreta al preparar                     |
+| Lanzar               | Animación en la postura actual e indicador de recarga            | Impacto en la posición real                    |
+| Interacción válida | Nombre de acción, tecla actual y progreso cuando corresponde     | Confirmación al completar                      |
+| Nahual sospecha      | Símbolo de alerta en crecimiento                                 | Vocalización y cambio musical                  |
+| Haz del Diablo       | Borde visible, dirección de barrido y contraste con el fondo     | Motivo direccional de la amenaza                |
+| Captura              | Breve transición a derrota sin escena gráfica                   | Corte sonoro controlado                         |
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Sistemas]] · [[05 - Progresión]] →
