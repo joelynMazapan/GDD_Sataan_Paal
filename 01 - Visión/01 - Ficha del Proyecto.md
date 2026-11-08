@@ -1,5 +1,5 @@
 # Ficha del Proyecto
-----------
+
 ## 1.1. Información general
 | CAMPO                        | INFORMACIÓN                                                                                                                                              |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -13,7 +13,6 @@
 | **Última actualización**     | 2026-11-07<!-- AAAA-MM-DD -->                                                                                                                            |
 | **Repositorio del juego**    | https://github.com/joelynMazapan/sataanpaal.git<!-- Enlace -->                                                                                           
 
-------
 
 ## 1.2. Identidad del videojuego
 | CARACTERÍSTICAS           | INFORMACIÓN                                                                                                                |
@@ -30,9 +29,9 @@
 | **Ambientación**          | Fantasía oscura con elementos sobrenaturales y referencias a la cultura mexicana.                                          |
 
 **Clasificación y descripción de la experiencia**
-	Videojuego de sigilo y acción-aventura en 3D para un jugador, con perspectiva isométrica y cámara dinámica. Presenta una estructura lineal de cuatro escenarios en los que el jugador debe explorar el entorno, evitar enemigos, aprovechar elementos de cobertura y utilizar objetos para generar distracciones. La experiencia incorpora elementos de supervivencia, enfrentamientos con jefes y una narrativa sobrenatural relacionada con el secuestro y sus consecuencias.
+Videojuego de sigilo y acción-aventura en 3D para un jugador, con perspectiva isométrica y cámara dinámica. Presenta una estructura lineal de cuatro escenarios en los que el jugador debe explorar el entorno, evitar enemigos, aprovechar elementos de cobertura y utilizar objetos para generar distracciones. La experiencia incorpora elementos de supervivencia, enfrentamientos con jefes y una narrativa sobrenatural relacionada con el secuestro y sus consecuencias.
 
-------
+
 ## 1.3. Tecnología y herramientas
 | CATEGORÍA                    | TECNOLOGÍA O HERRAMIENTA           | USO EN EL PROYECTO                                                                       |
 | ---------------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -43,14 +42,13 @@
 | **Entorno de desarrollo**    | Visual Studio / Visual Studio Code | Edición y desarrollo de los scripts del videojuego.                                      |
 | **Control de versiones**     | Git y GitHub                       | Administración del código fuente y colaboración entre los integrantes.                   |
 
-------
+
 
 ## 1.4. Elevator Pitch
 
-> [!Elevator Pitch]
-> _Saatan Paal_ es un videojuego 3D de sigilo y acción-aventura en el que Iktan, un niño acompañado por Abbi, una pequeña perrita chihuahua espiritual, deben atravesar dos escenarios sobrenaturales utilizando la exploración, las distracciones y la evasión de enemigos para sobrevivir. A medida que avanza, descubrirá los recuerdos que rodean su desaparición y la verdad detrás de su historia, en una experiencia narrativa que aborda las consecuencias del secuestro y la importancia de los vínculos familiares.
+Saatan Paal es un videojuego 3D de sigilo y acción-aventura en el que Iktan, un niño acompañado por Abbi, una pequeña perrita chihuahua espiritual, deben atravesar dos escenarios sobrenaturales utilizando la exploración, las distracciones y la evasión de enemigos para sobrevivir. A medida que avanza, descubrirá los recuerdos que rodean su desaparición y la verdad detrás de su historia, en una experiencia narrativa que aborda las consecuencias del secuestro y la importancia de los vínculos familiares.
 
--------
+
 ## 1.5. Estado actual
 > **Preproducción**
 
@@ -67,7 +65,6 @@
 | **Pruebas y optimización**                 | Pendiente.                    |
 | **Versión final**                          | Pendiente.                    |
 
-------
 
 ## 1.6. Criterio de éxito del proyecto
 

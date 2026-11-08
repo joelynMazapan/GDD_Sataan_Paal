@@ -1,12 +1,11 @@
 # Público y Plataforma
--------
+
 ## 3.1. Público objetivo
 
 Saatan Paal está dirigido principalmente a jugadores de entre 13 y 30 años interesados en experiencias de sigilo, acción-aventura y exploración, así como en narrativas de misterio, supervivencia y elementos sobrenaturales. También busca atraer a personas interesadas en la cultura mexicana y en historias que aborden problemáticas sociales.
 - **Experiencia esperada:** Intermedia, con una curva de aprendizaje progresiva que permita a jugadores casuales familiarizarse con las mecánicas de movimiento, sigilo, exploración y uso de objetos, mientras que los desafíos posteriores requieren mayor observación y planificación.
 - **Conocimientos previos necesarios:** No se requieren conocimientos previos sobre videojuegos de sigilo ni experiencia especializada. Las mecánicas y los controles deberán poder comprenderse mediante la práctica y las indicaciones proporcionadas durante la experiencia.
 
--------
 
 ## 3.2. Plataforma
 | ELEMENTO                    | DECISIÓN                                              |
@@ -19,7 +18,6 @@ Saatan Paal está dirigido principalmente a jugadores de entre 13 y 30 años int
 | **Rendimiento objetivo**    | 60 FPS.                                               |
 | **Conexión requerida**      | No, ya que será local.                                |
 
-------
 
 ## 3.3. Restricciones de plataforma
 
@@ -37,19 +35,16 @@ El desarrollo considera las capacidades de procesamiento gráfico y memoria de l
 
 - **Distribución web:** La posible versión de demostración para navegador requerirá ajustes adicionales en los recursos gráficos, tiempos de carga y compatibilidad con los navegadores seleccionados.
 
-----
 
 ## 3.4. Sesión de juego
 
 Se estima que cada sesión tenga una duración aproximada de 10 a 15 minutos, mientras que la experiencia completa podría extenderse entre 30 minutos y 1 hora. Estos tiempos pueden variar según la habilidad del jugador, el tiempo dedicado a explorar los escenarios, las persecuciones, los enfrentamientos y los intentos necesarios para superar los desafíos.
 
---------
 
 ## 3.5. Modelo de distribución
 
 Prototipo académico gratuito, desarrollado con fines educativos y de demostración. Su finalidad es presentar una experiencia jugable que integre mecánicas de sigilo, exploración y narrativa, además de generar reflexión sobre las consecuencias sociales y familiares del secuestro.
 
-------
 
 ## 3.6. Consideraciones
 

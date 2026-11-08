@@ -1,28 +1,24 @@
 # Visión del Juego
--------
+
 ## 2.1. Concepto central
 
 Saatan Paal es un videojuego tridimensional de sigilo y acción-aventura en el que el jugador acompaña a Iktan, un niño que debe atravesar distintos escenarios sobrenaturales mientras evita amenazas, explora su entorno y utiliza objetos para resolver situaciones de peligro. A través de esta travesía, reconstruye fragmentos de su pasado hasta descubrir la verdad detrás de su desaparición. La experiencia integra elementos de la cultura mexicana y el Día de Muertos en una narrativa que aborda el secuestro, la pérdida y los vínculos familiares.
 
------
+
 ## 2.2. Experiencia deseada
 
 Se busca que el jugador experimente una sensación de inmersión durante toda la partida, sintiendo tensión, incertidumbre y ansiedad al ser perseguido o encontrarse en situaciones de peligro. A través de las mecánicas de sigilo, exploración y supervivencia, se espera que analice su entorno, tome decisiones estratégicas y encuentre la manera de superar las amenazas sin ser descubierto. Asimismo, mediante el desarrollo de la historia de Iktan y los acontecimientos que descubre durante su recorrido, se busca generar empatía y una reflexión sobre las consecuencias del secuestro en las víctimas y sus familias, así como sobre la importancia de los vínculos afectivos y la memoria.
 
-------
 
 ## 2.3. Fantasía del jugador
 
-> [!Fantasía del jugador] 
-> La experiencia busca que el jugador asuma el papel de un superviviente que debe abrirse camino a través de entornos desconocidos y hostiles. Para lograrlo, deberá recurrir a la observación, la planificación y el aprovechamiento de los recursos disponibles, enfrentándose progresivamente a situaciones que pondrán a prueba su capacidad de adaptación y resolución de problemas.
+La experiencia busca que el jugador asuma el papel de un superviviente que debe abrirse camino a través de entornos desconocidos y hostiles. Para lograrlo, deberá recurrir a la observación, la planificación y el aprovechamiento de los recursos disponibles, enfrentándose progresivamente a situaciones que pondrán a prueba su capacidad de adaptación y resolución de problemas.
 
---------
 
 ## 2.4. Propuesta de valor
 
 Saatan Paal combina mecánicas de sigilo y exploración con una narrativa sobrenatural que incorpora elementos culturales mexicanos. Su propuesta se centra en vincular las acciones del jugador con el desarrollo de la historia, utilizando los escenarios, objetos y personajes como recursos tanto jugables como narrativos. De esta manera, busca ofrecer una experiencia de entretenimiento que también genere conciencia y reflexión sobre las consecuencias del secuestro y su impacto en el entorno familiar.
 
--------
 ## 2.5. Características principales
 
 Lista las características que definen la experiencia.
@@ -37,7 +33,6 @@ Lista las características que definen la experiencia.
 
 5. **Progresión narrativa:** Desarrollo de la historia mediante acontecimientos y descubrimientos distribuidos a lo largo de los escenarios.
 
------
 
 ## 2.6. Diferenciadores
 
@@ -51,7 +46,6 @@ Lista las características que definen la experiencia.
 
 - **Revelación progresiva:** La información sobre el pasado de Iktan se presenta gradualmente, incentivando la exploración y manteniendo el interés narrativo.
 
-----
 
 ## 2.7. Límites del concepto
 
