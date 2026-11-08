@@ -6,9 +6,9 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 
 ## Requisitos por personaje
 
-| Personaje | Modelo/Sprite | Animaciones | VFX | Estado |
-|---|---|---|---|---|
-| | | | | |
+| Personaje            | Modelo/Sprite                                                                                   | Animaciones | VFX | Estado |
+| -------------------- | ----------------------------------------------------------------------------------------------- | ----------- | --- | ------ |
+| Iktan (Protagonista) | Modelo 3D cúbico y estilizado de un niño con poncho tradicional, pantalón de manta y huaraches. |             |     |        |
 
 ## Animaciones
 

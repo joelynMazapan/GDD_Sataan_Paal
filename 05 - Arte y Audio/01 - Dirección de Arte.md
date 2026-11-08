@@ -6,17 +6,17 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 
 ## Identidad visual
 
-**Estilo:**
+**Estilo:** Voxel Art 3D Estilizado
 
-**Referencias:**
+**Referencias:** Crossy Road, 3D Dot Game Heroes, Minecraft y Pixel Gun 3D
 
-**Sensación buscada:**
+**Sensación buscada:** Legibilidad inmediata, dinamismo, tono vibrante y retro-moderno
 
-**Nivel de realismo:**
+**Nivel de realismo:** Bajo / Estilizado
 
-**Formas predominantes:**
+**Formas predominantes:** Ortogonales y angulares compuestas por cubos
 
-**Iluminación:**
+**Iluminación:** 
 
 **Materiales:**
 
