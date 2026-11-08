@@ -17,10 +17,10 @@ Describe el ciclo que se repite durante la experiencia.
 ## Acciones principales del jugador
 
 | Acción | Propósito | Resultado |
-|---|---|---|
-| | | |
-| | | |
-| | | |
+| ------ | --------- | --------- |
+|        |           |           |
+|        |           |           |
+|        |           |           |
 
 ## Experiencia segundo a segundo
 
