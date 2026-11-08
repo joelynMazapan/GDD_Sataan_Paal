@@ -16,7 +16,7 @@ Saatan Paal está dirigido principalmente a jugadores de entre 13 y 30 años int
 | **Resolución objetivo**     | 1920 × 1080 píxeles.                                  |
 | **Relación de aspecto**     | 16:9.                                                 |
 | **Rendimiento objetivo**    | 60 FPS.                                               |
-| **Conexión requerida**      | No, ya que será local.                                |
+| **Conexión requerida**      | No.                                                   |
 
 
 ## 3.3. Restricciones de plataforma
@@ -38,7 +38,7 @@ El desarrollo considera las capacidades de procesamiento gráfico y memoria de l
 
 ## 3.4. Sesión de juego
 
-Se estima que cada sesión tenga una duración aproximada de 10 a 15 minutos, mientras que la experiencia completa podría extenderse entre 30 minutos y 1 hora. Estos tiempos pueden variar según la habilidad del jugador, el tiempo dedicado a explorar los escenarios, las persecuciones, los enfrentamientos y los intentos necesarios para superar los desafíos.
+Se estima que la experiencia completa tenga una duración aproximada de 30 minutos. Este tiempo puede variar ligeramente según la habilidad del jugador, el tiempo dedicado a explorar los escenarios, las persecuciones, los enfrentamientos y los intentos necesarios para superar los desafíos.
 
 
 ## 3.5. Modelo de distribución
