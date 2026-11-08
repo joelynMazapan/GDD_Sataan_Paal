@@ -1,57 +1,91 @@
 # Reglas y Estados del Juego
 
-## Descripción de la sección
-
-Esta sección define la arquitectura global del software del juego, documentando los diferentes estados que experimenta el usuario desde que abre la aplicación hasta que la cierra, las condiciones para transicionar entre estos estados y las reglas universales inquebrantables que rigen el mundo de Iktan.
 ## Estados principales
 
-- **Menú principal:** Pantalla inicial con estética de un altar de muertos en penumbras. Opciones: Nueva Partida, Continuar, Opciones, Salir.
-- **Carga (Loading):** Pantalla de transición donde se muestra una pequeña vela iluminando datos curiosos sobre la cultura del Día de Muertos o pistas de controles.
-- **Jugando (Gameplay):** El estado central. El jugador tiene control total sobre Iktan en los niveles.
-- **Pausa:** El tiempo del juego se congela (TimeScale = 0). Permite ajustar volumen, controles o slir al menú.
-- **Victoria (Interludio de Altar):** Estado narrativo al final de cada nivel donde Iktan coloca el objeto recolectado (molletes, trompos, mandarinas) en el Altar espectral.
-- **Derrota / Game Over:** Se activa cuando un enemigo atrapa a Iktan o la barra de Pánico llega al 100%. Pantalla en negro con la opción de volver a intentar desde el último punto de control (Checkpoint).
-- **Créditos:** Pantalla final tras el clímax, donde se lee el mensaje de concientización sobre el secuestro mientras suben los nombres del equipo de desarrollo.
+
+| Estado              | Control y presentación                                     | Salidas posibles                              |
+| ------------------- | ----------------------------------------------------------- | --------------------------------------------- |
+| Menú principal     | Nueva partida, Continuar, Opciones y Salir                  | Carga, Opciones o cierre                      |
+| Opciones            | Audio, controles y accesibilidad                            | Menú o Pausa, según origen                  |
+| Carga               | Preparación del nivel y restauración; sin control jugable | Jugando o mensaje de error                    |
+| Jugando             | Control de Iktan, cámara, herramientas e IA                | Pausa, Secuencia narrativa, Derrota o Carga   |
+| Pausa               | Simulación congelada y menú accesible                     | Estado previo, Opciones, Carga o Menú        |
+| Secuencia narrativa | Cámara y acciones guionizadas; entrada limitada            | Estado previo tras pausa, Jugando o Desenlace |
+| Derrota             | Transición breve y opciones Reintentar / Menú             | Carga o Menú                                 |
+| Desenlace           | Camino final controlable, sin amenazas activas              | Créditos o Pausa                             |
+| Créditos           | Mensaje social y nombres del equipo                         | Menú principal                               |
+
+La secuencia narrativa puede pausarse. Al reanudar se vuelve a la misma secuencia, sin reactivar IA prematuramente. Si se permite omitir una secuencia ya vista, sus hitos y cambios de entorno se aplican antes de devolver el control.
 
 ## Transiciones
 
-| Estado origen    | Evento                                       | Estado destino | Condición                                                  |
-| ---------------- | -------------------------------------------- | -------------- | ---------------------------------------------------------- |
-| Carga            | Carga de _assets_ completada al 100%         | Jugando        | El nivel está completamente instanciado en memoria.        |
-| Jugando          | Presionar botón Pausa.                       | Pausa          | El jugador no está en medio de una cinemática de historia. |
-| Pausa            | Seleccionar "Reanudar"                       | Jugando        | Ninguna                                                    |
-| Pausa            | Seleccionar "Volver al Menú"                 | Menú principal | Confirmación en ventana emergente.                         |
-| Jugando          | Hitbox del enemigo choca con hitbox de Iktan | Game Over      | El enemigo alcanza a Iktan.                                |
-| Jugando          | Medidor de Pánico llega al 100%              | Game Over      | Estar fuera de cobertura demasiado tiempo en el Cap 4.     |
-| Derrota Jugando  | Seleccionar "Reintentar"                     | Carga          | Ninguna.                                                   |
-| Victoria (Altar) | Animación de colocar objeto terminada        | Carga          | Iktan cruza la puerta hacia el siguiente capítulo.         |
-| Jugando (Cap 4)  | Romper último vitral e Iktan cruza la luz    | Créditos       | Cinématica final concluida.                                |
-| Menú principal   | Seleccionar "Nueva Partida" o "Continuar"    | Carga          | Presionar botón de confirmación.                           |
-|                  |                                              |                |                                                            |
+
+| Origen                          | Evento                     | Destino             | Condición y resultado                                                   |
+| ------------------------------- | -------------------------- | ------------------- | ------------------------------------------------------------------------ |
+| Menú                           | Nueva partida              | Carga               | Si existe progreso previo, confirmar su sustitución                     |
+| Menú                           | Continuar                  | Carga               | Guardado válido; si no existe, opción deshabilitada                    |
+| Carga                           | Nivel preparado            | Jugando o Desenlace | Restaurar punto y objetivos antes de habilitar entradas                  |
+| Jugando / Secuencia / Desenlace | Esc                        | Pausa               | Guardar estado de retorno y congelar simulación                         |
+| Pausa                           | Reanudar                   | Estado anterior     | Sin repetir entradas mantenidas del menú                                |
+| Pausa                           | Reiniciar punto            | Carga               | Confirmación; descartar avances desde el último guardado               |
+| Pausa                           | Volver al menú            | Menú               | Confirmar pérdida de avance no guardado                                 |
+| Jugando                         | Captura válida            | Derrota             | Bloquear interacción y detener amenazas                                 |
+| Derrota                         | Reintentar                 | Carga               | Restaurar último punto coherente                                        |
+| Jugando                         | Columna completada         | Secuencia narrativa | Nahual dentro de la trampa; neutralizar y guardar S3                     |
+| Secuencia de derrumbe           | Fin                        | Jugando             | Hacer aparecer la mesa espectral                                         |
+| Jugando                         | Interactuar con la mesa    | Secuencia narrativa | Al terminar, abrir árboles y guardar S4; las piedras siguen disponibles |
+| Jugando                         | Cruzar acceso a la Iglesia | Carga               | Recuerdo de la mesa completado; destino único: Iglesia                  |
+| Jugando                         | Llegar al altar            | Secuencia narrativa | Transformación del pedestal y fotografía                               |
+| Secuencia de revelación        | Fin                        | Jugando             | Guardar I1 y habilitar acceso al desafío                                |
+| Jugando                         | Entrar en la nave          | Jugando             | Activar barrido del Diablo y contador de vitrales                        |
+| Jugando                         | Confirmar tercer vitral    | Secuencia narrativa | Desactivar amenaza, mostrar luz y guardar I2                             |
+| Secuencia final                 | Fin                        | Desenlace           | Habilitar sendero de cempasúchil                                        |
+| Desenlace                       | Cruzar salida de luz       | Créditos           | Marcar partida completada                                                |
 
 ## Reglas globales
 
-1. **Regla Pacifista (Sin Combate):** Iktan NO puede infligir daño directo a ningún enemigo bajo ninguna circunstancia. Cualquier intento de contacto físico directo con un enemigo resulta en Derrota inmediata.
-2. **Regla de Letalidad :** Iktan no tiene barra de salud. Si un enemigo lo toca una sola vez, o si es alcanzado por un obstáculo letal del entorno, el jugador pierde instantáneamente y vuelve al último punto de control.
-3. **Prioridad de Sonido :** Los enemigos siempre priorizarán investigar el sonido de una distracción (roca, trompo/entorno) por encima de su ruta de patrulla habitual, a menos que ya estén en estado de "Persecución" persiguiendo visualmente a Iktan.
-4. **Inmunidad de Zonas Seguras:** Los puntos de guardado y las "Zonas Seguras" (donde Iktan abraza a Abbi para reducir el pánico) son espacios inalcanzables para la IA enemiga. Los enemigos no pueden patrullar ni ser atraídos dentro de estas zonas.
-5. **Masa Mística de Abbi:** Al ser un espíritu de azúcar, la inteligencia artificial enemiga NO puede detectar a Abbi. La perrita puede ladrar, correr o moverse libremente sin alertar a los guardias; el sigilo depende única y exclusivamente de las acciones y el posicionamiento de Iktan.
+1. **Vulnerabilidad:** un contacto físico del Nahual activo o un contacto sin oclusión con un haz del Diablo causa captura. La reacción se presenta sin violencia gráfica.
+2. **Resolución ambiental:** solo las piedras desvían deliberadamente la atención. La columna y la luz resuelven los enfrentamientos; no existe daño directo con proyectiles.
+3. **Cobertura verificable:** ocultamiento depende de postura, volúmenes de hierba válidos y obstáculos reales. Un icono informa el estado, no lo concede.
+4. **Percepción coherente:** ningún enemigo conoce la posición actual de Iktan fuera de sus reglas de percepción. Las distracciones no cancelan un avistamiento confirmado.
+5. **Papel de Abbi:** guía espiritual, no objetivo de captura ni fuente de alerta enemiga. No modifica recursos de supervivencia.
+6. **Objetivos únicos:** columna, recuerdo de la mesa y cada vitral solo pueden completarse una vez por estado restaurado.
+7. **Guardado definido:** reintentar conserva los hitos del punto de control y reinicia la situación táctica. Pausar o salir no crea un punto nuevo.
+8. **Recorrido:** Selva e Iglesia constituyen todo el contenido jugable. La transición es directa y el final es único.
+9. **Seguridad de secuencias:** solo una interacción válida ya completada desactiva la amenaza correspondiente; iniciar una animación no otorga protección anticipada.
+10. **Presentación responsable:** no se premia la violencia contra víctimas ni se atribuye a ellas la responsabilidad del secuestro. Las tradiciones y figuras sobrenaturales sirven a una ficción y no se presentan como una interpretación cultural universal.
+
 ## Casos especiales
 
-Documenta excepciones importantes para evitar interpretaciones diferentes durante la implementación.
 
-Documentación de excepciones importantes para los programadores del motor:
+| Caso                                                       | Resolución                                                                              |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Captura e interacción en el mismo paso de simulación     | Primero se resuelve captura. Si ya fue confirmada, se cancela la interacción            |
+| Nahual abandona las ruinas durante la preparación         | No se derriba la columna; se informa la condición faltante y se puede reintentar        |
+| Sonido en una posición inaccesible para el Nahual         | Investiga el punto navegable más próximo sin atravesar paredes                         |
+| Piedra impacta sobre una amenaza                           | Sin daño ni aturdimiento; sonido de impacto sujeto a las prioridades de IA              |
+| Interacción repetida con mesa o vitral resuelto           | No consume objetos ni duplica avance; se oculta la acción completada                    |
+| Último vitral confirmado                                  | Se desactivan los haces antes de la secuencia de luz; no se admiten capturas posteriores |
+| Cerrar durante una interacción o secuencia no consolidada | Continuar recupera el último punto completo; no se guarda progreso parcial              |
+| Pausa durante una investigación o recarga de piedra       | Sus temporizadores quedan congelados y continúan al reanudar                            |
+| Abbi pierde la ruta                                        | Recolocación fuera de cámara sobre una superficie válida                              |
+| Iktan queda fuera del área navegable por un error         | Restauración del punto con mensaje breve; sin pérdida permanente de progreso           |
 
-- **Impacto de roca sobre enemigo:** ¿Qué pasa si el jugador le lanza la roca directamente al cuerpo de un guardia en lugar de al piso?
-    
-    - _Excepción:_ La roca no le hace daño. Al chocar con el modelo del enemigo, se destruye y el radio de sonido se genera a los pies del guardia. Esto hace que el enemigo se quede quieto mirando al suelo confundido por 2 segundos antes de volver a patrullar.
-    - 
-- **Parálisis en el aire:** ¿Qué pasa si el medidor de pánico llega al 100% justo cuando el jugador presiona el botón de "Esquivar"?
-    
-    - _Excepción:_ El juego permitirá que la animación de rodar termine para evitar bugs visuales de físicas (clipping), y en el exacto instante en que Iktan se ponga de pie, se activará el estado de "Game Over" por parálisis.
-    
-- **Detección en la puerta (Transición de nivel):** ¿Qué pasa si un guardia detecta a Iktan exactamente en el frame en que este interactúa con la puerta para acabar el nivel?
-    
-    - _Excepción:_ La interacción con objetos de fin de nivel o recompensas otorga "Frames de Invencibilidad" (I-Frames). La animación de Iktan recogiendo los molletes o abriendo la puerta tiene prioridad absoluta, cancelando el aggro (enojo) del enemigo y forzando la Victoria.
+## Criterios de aceptación del diseño
+
+* Es posible terminar ambos niveles sin causar daño mediante proyectiles.
+* Agacharse, cobertura y ruido producen los mismos resultados ante las mismas condiciones.
+* El Nahual puede atraerse a las ruinas y la columna no genera un bloqueo irreversible.
+* La escena de la mesa abre el paso sin requerir objetos; las piedras siguen siendo la única herramienta de distracción.
+* Cada vitral se puede despejar con una distracción de piedra de 5 s, interacción de 2 s y margen mínimo de 1 s.
+* Cada vitral cuenta una sola vez y el tercero resuelve el enfrentamiento.
+* Reintentar desde cada punto reconstruye correctamente enemigos, objetos y objetivos.
+* Las pistas de Abbi y los mensajes de interfaz funcionan sin depender solo del audio o del color.
+
+## Cierre narrativo
+
+Tras el sendero final se propone el mensaje: **«Iktan es un personaje ficticio. El secuestro deja heridas en las víctimas, sus familias y sus comunidades. Recordar con dignidad y escuchar sus historias nos invita a construir una sociedad más empática y solidaria».**
+
+Los créditos identifican a Renata Cortés Mancilla, Yoel Alfredo Canul Gijon, Zaidy Itzamara Cruz Santiago, Juan David Lomeli Cruz y Brandon Michell Reyes del Ángel. No se asignan cargos individuales hasta que el equipo los confirme.
 
 > **Navegación:** [[00 - Índice]] · ← [[06 - Economía y Recursos]] · [[01 - Premisa y Trama]] →
