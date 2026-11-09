@@ -1,118 +1,94 @@
 # Mecánicas
 
-## Descripción de la sección
 
-Una mecánica es una regla o interacción mediante la cual el jugador puede actuar dentro del sistema del juego.
+### 01. Movimiento, sigilo y cobertura
 
-Documenta cada mecánica con suficiente detalle para que otro integrante pueda implementarla.
+**Propósito:** permitir desplazamientos tácticos comprensibles en un escenario 3D.
 
-## Plantilla de mecánica
+**Activación y entrada:** WASD mueve respecto a la orientación horizontal de la cámara; Ctrl alterna agacharse y Mayús permite correr mientras se mantiene pulsado.
 
-### Nombre de la mecánica
-
-**Propósito:**  
-¿Qué aporta a la experiencia?
-
-**Activación:**  
-¿Qué debe hacer el jugador?
-
-**Reglas:**  
-¿Qué puede y qué no puede ocurrir?
-
-**Entrada:**  
-¿Qué botón, gesto o acción la activa?
-
-**Estado inicial:**
-
-**Estado final:**
-
-**Recursos utilizados:**
-
-**Recompensa:**
-
-**Penalización:**
-
-**Interacciones con otras mecánicas:**
-
-**Casos límite:**  
-¿Qué ocurre en situaciones poco comunes?
-
-## Mecánicas principales
-
-#### Mecánica 01: Sigilo y Esconderse
-
-**Propósito:** Permite al jugador evadir el campo de visión de los enemigos y reducir su nivel de ruido para avanzar por los niveles sin ser detectado. Aporta la tensión principal de la experiencia de juego.
-
-**Activación:** El jugador debe mantener presionado (o alternar) el botón de sigilo mientras se mueve, preferentemente ubicando a Iktan detrás de objetos del entorno (cajas, muros, lápidas).
+**Estado inicial:** Iktan está de pie o agachado, con control disponible. **Estado final:** alcanza una nueva posición o cambia de postura.
 
 **Reglas:**
 
-- Al activarse, la velocidad de movimiento de Iktan se reduce al 50%.
-- El radio de ruido de los pasos del jugador se reduce a 0 (silencio total).
-- Si Iktan está agachado detrás de un objeto con la etiqueta `Cobertura` y un enemigo proyecta su cono de visión sobre ese objeto, Iktan NO es detectado.
-- Si Iktan está agachado pero NO está detrás de una cobertura y el cono de visión lo toca, es detectado inmediatamente.
+* Velocidades propuestas: caminar 2,5 m/s; agachado 1,25 m/s; correr 4 m/s.
+* Radios de ruido de pasos: 3 m al caminar, 1 m agachado y 8 m al correr. Se emite un evento por paso, no cada fotograma.
+* La hierba alta oculta visualmente al personaje agachado que se encuentre dentro de su volumen. Caminar de pie en ella no activa ese beneficio.
+* Troncos, muros y mobiliario sólido bloquean visión mediante geometría; una etiqueta de cobertura por sí sola no concede invisibilidad.
+* En la Iglesia solo las coberturas opacas detienen los haces. La decoración vegetal no garantiza protección frente a ellos.
+* Correr desde la postura agachada exige espacio para ponerse de pie; al soltar Mayús se vuelve a caminar de pie. Si falta altura, Iktan permanece agachado.
+* El lanzamiento conserva la postura y no levanta automáticamente a Iktan.
+* El recorrido se resuelve caminando, corriendo o agachándose; no requiere salto, voltereta ni esquiva.
 
-**Entrada:** Botón asignado (Ej: Mantener `Ctrl` en teclado o `Gatillo L2` en control).
+**Recursos:** tiempo y posición. **Recompensa:** avanzar sin ser visto. **Penalización:** una mala posición permite investigación, persecución o captura.
 
-**Estado inicial:** Iktan camina de pie, generando un radio de sonido pequeño y siendo completamente visible a los conos de luz enemiga.
+**Interacciones:** determina la emisión de ruido, la validez de las coberturas y el acceso a objetivos.
 
-**Estado final:** Iktan está agachado, silenciado y protegido de la visión si hay un obstáculo entre él y el enemigo.
+**Casos límite:** no se puede atravesar el escenario con el cambio de postura. El contacto con el Nahual en estado activo causa captura incluso dentro de la hierba. Abbi no bloquea físicamente a Iktan.
 
-**Recursos utilizados:** Ninguno.
+### 02. Apuntar y lanzar piedras
 
-**Recompensa:** Superar zonas plagadas de enemigos sin iniciar una persecución.
+**Propósito:** crear una ventana breve para cruzar o preparar una interacción.
 
-**Penalización:** Lentitud de movimiento; si el jugador calcula mal el tiempo, el enemigo lo alcanzará fácilmente.
+**Activación y entrada:** mantener botón derecho muestra la trayectoria; pulsar botón izquierdo lanza. Soltar el derecho sin lanzar cancela.
 
-**Interacciones con otras mecánicas:** No se puede correr mientras se está en sigilo. Al lanzar una roca desde sigilo, Iktan se levantará brevemente durante la animación de lanzamiento.
+**Estado inicial:** piedra disponible y recarga terminada. **Estado final:** impacto sonoro y recarga de 2 s desde el lanzamiento.
 
-**Casos límite:** ¿Qué ocurre si un enemigo en su ruta de patrulla camina físicamente hacia la misma cobertura donde está Iktan? El contacto físico (colisión de hitboxes) fuerza la detección inmediata, ignorando que Iktan esté agachado.
-#### Mecánica 02: Lanzamiento de Rocas 
-**Propósito:** Darle al jugador una herramienta táctica para manipular la inteligencia artificial de los enemigos, obligándolos a abandonar sus rutas de patrullaje para despejar un camino.
+**Reglas:** alcance máximo propuesto de 12 m; radio de impacto sonoro de 8 m. El Nahual investiga un impacto audible durante 5 s tras llegar. El Diablo gira hacia el impacto y mantiene la mirada 5 s después de completar el giro. El movimiento y el giro se respetan: la distracción no teletransporta al enemigo.
 
-**Activación:** El jugador apunta con un indicador visual y lanza la roca hacia un punto específico del mapa.
+Las piedras son ilimitadas, no requieren recolección y no causan daño ni aturdimiento. Su trayectoria colisiona con paredes y obstáculos. El sonido se genera en el primer impacto real, aunque la predicción del apuntado quedara desactualizada. La piedra no activa la columna ni retira tablas.
 
-**Reglas:**
+**Recursos:** recarga y tiempo de exposición. **Recompensa:** desviar temporalmente la amenaza. **Penalización:** un impacto junto a Iktan puede atraerla a su cobertura.
 
-- Las rocas tienen un radio de sonido invisible al impactar (ej. 5 metros).
-- Cualquier enemigo cuyo "oído" sea tocado por el radio de sonido de la roca, cambiará su estado de `Patrulla` a `Investigación`.
-- El enemigo caminará exactamente al punto de impacto de la roca, mirará a su alrededor por 3 segundos, y luego regresará a su ruta original.
-- Munición infinita, pero con un tiempo de recarga de 2 segundos entre lanzamientos para evitar spam.
+**Interacciones:** el avistamiento confirmado tiene prioridad sobre cualquier sonido. Un nuevo impacto audible actualiza el punto de interés; una vez alcanzado ese punto o completado el giro, comienza de nuevo la atención de 5 s. El giro respeta su velocidad máxima: lanzar otra piedra no crea una abertura instantánea.
 
-**Entrada:** Apuntar + Lanzar.
+**Casos límite:** una pared cercana interrumpe el tiro; la vista previa marca la colisión. Un impacto sobre el enemigo genera sonido en el punto de contacto sin alterar la prioridad de persecución ni infligir daño. Un segundo lanzamiento es rechazado durante la recarga.
 
-**Estado inicial:** El enemigo sigue su ruta de patrulla predefinida.
+### 03. Derribar la columna de las ruinas
 
-**Estado final:** El enemigo se encuentra fuera de su ruta, investigando el ruido, dejando un punto ciego para que Iktan avance.
+**Propósito:** cerrar la Selva utilizando posición, señuelo y escenario.
 
-**Recursos utilizados:** Tiempo.
+**Activación y entrada:** atraer al Nahual bajo el techo marcado por grietas; acercarse al lateral accesible de la columna y mantener E durante 2 s.
 
-**Recompensa:** Crear aberturas seguras en zonas donde los conos de visión enemigos bloquean el 100% del pasillo.
+**Estado inicial:** columna intacta y Nahual dentro del volumen de la trampa. **Estado final:** derrumbe completado, Nahual neutralizado y mesa espectral disponible.
 
-**Penalización:** Si el jugador lanza la roca demasiado cerca de sí mismo, el radio de sonido del impacto atraerá al enemigo directamente hacia la posición de Iktan, provocando su detección.
+**Reglas:** la posición de interacción está fuera de la zona del derrumbe. El juego muestra «Derribar columna» solo al cumplir las condiciones. Durante los 2 s de preparación se puede cancelar soltando E o moviéndose. Al completarse se vuelve a verificar la presencia del Nahual; si salió del volumen, la columna sigue intacta y se indica «Atrae al Nahual bajo las ruinas». Una activación válida compromete la secuencia y neutraliza la amenaza antes de reproducir la caída.
 
-**Interacciones con otras mecánicas:** Es la herramienta principal para activar las Trampas del Entorn.
+**Recursos:** oportunidad de distracción y tiempo. **Recompensa:** acceso a la escena de recuerdo familiar. **Penalización:** quedar expuesto antes de completar la interacción permite captura.
 
-**Casos límite:** ¿Qué ocurre si el jugador lanza una segunda roca mientras el enemigo investiga la primera? La IA cancela la primera investigación, gira y se dirige inmediatamente al punto de impacto de la segunda roca.
-## Mecánicas secundarias
+**Interacciones:** la piedra atrae, el jugador derriba y el sistema de progresión registra la resolución una sola vez.
 
-Lista de mecánicas que complementan la experiencia pero no constituyen el núcleo del sigilo:
+**Casos límite:** no puede dispararse sin el Nahual ni repetirse. Si se interrumpe antes de completarse, el progreso de interacción vuelve a cero. La secuencia se muestra sin detalle gráfico y desde una posición protegida.
 
-1. **Caminar :**
-    
-    - _Descripción:_ Desplazamiento normal con el joystick izquierdo o WASD. Genera un ruido muy leve. Sirve para recorrer zonas sin enemigos rápido y recolectar pistas (notas, vendas).
+### 04. Activar el recuerdo de la mesa espectral
 
-2. **Correr y Esquivar:**
-    
-    - _Descripción:_ Al presionar un botón, Iktan da un acelerón o una voltereta. Es vital para las secuencias de persecución, pero fuera de ellas genera un radio de sonido masivo que alerta a todos los enemigos de la sala.
-    
-3. **Abrazar a Abbi :**
-    
-    - _Descripción:_ En niveles de alta tensión (como el Capítulo 4), una neblina oscurece gradualmente la pantalla del jugador (medidor de pánico). El jugador debe buscar una cobertura segura y mantener presionado un botón para interactuar con Abbi. Esto reproduce una animación de consuelo que limpia la pantalla y restablece la visión.
-    
-4. **Recolectar y Colocar Ofrendas :**
-    
-    - _Descripción:_ Mecánica narrativa. Al final de cada nivel, el jugador interactúa con el objeto brillante (premio). Esto teletransporta al jugador brevemente frente al Altar de Muertos espectral, donde presiona un botón para colocar el objeto, guardando su progreso.
+**Propósito:** enlazar la resolución de la Selva con el altar de la Iglesia sin añadir recursos ni herramientas.
+
+**Activación y entrada:** tras el derrumbe aparece la mesa espectral; pulsar E a menos de 1,5 m inicia una breve escena de memoria familiar.
+
+**Estado inicial:** Nahual neutralizado y mesa disponible. **Estado final:** escena completada, árboles abiertos y punto S4 guardado.
+
+**Reglas:** no se recoge ni deposita ningún objeto. La mesa aparece en el escenario actual y no teletransporta a Iktan. Al terminar la escena se devuelve el control para caminar directamente a la Iglesia. Las piedras conservan exactamente las mismas propiedades.
+
+**Recursos:** ninguno. **Recompensa:** avance narrativo y apertura del camino. **Penalización:** ninguna, pues la amenaza de la Selva ya está neutralizada.
+
+**Interacciones y casos límite:** el paso permanece cerrado hasta completar la escena. Reinteractuar no duplica eventos. El guardado distingue mesa disponible y recuerdo completado; una interrupción restaura el último hito consolidado.
+
+### 05. Retirar las tablas de los vitrales
+
+**Propósito:** vencer al Diablo abriendo la iglesia a la luz.
+
+**Activación y entrada:** aproximarse a cada uno de los tres vitrales y mantener E durante 2 s para derribar sus tablas podridas.
+
+**Estado inicial:** vitral cubierto y posición de interacción accesible. **Estado final:** vitral despejado de forma irreversible dentro del intento; contador actualizado.
+
+**Reglas:** se permite cualquier orden. Durante la interacción Iktan permanece expuesto y debe haber desviado la mirada del Diablo. Soltar E o moverse cancela y restablece el progreso parcial. Despejar un vitral reproduce un sonido de presentación que no emite eventos de distracción para la IA y abre una entrada de luz; las dos primeras entradas iluminan el entorno sin garantizar inmunidad. El tercer vitral desencadena la iluminación total y la disolución del Diablo.
+
+**Recursos:** tiempo y ventana del señuelo. **Recompensa:** progreso visible 1/3, 2/3 y 3/3. **Penalización:** contacto con un haz antes de completar la acción causa derrota.
+
+**Interacciones:** solo el impacto de una piedra desvía deliberadamente la mirada. La ventana de 5 s tras el giro debe cubrir acercamiento, interacción de 2 s y retirada a cobertura, con al menos 1 s de margen. Las posiciones de lanzamiento y los vitrales se distribuyen para que el desplazamiento expuesto total no supere 2 s.
+
+**Casos límite:** las tablas retiradas no se regeneran durante el intento. Reinteractuar no añade progreso. En un mismo paso de simulación, un contacto letal previo a confirmar la retirada tiene prioridad; tras confirmar el tercer vitral, la amenaza se desactiva.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →
