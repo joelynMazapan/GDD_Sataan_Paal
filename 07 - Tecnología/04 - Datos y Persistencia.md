@@ -8,7 +8,7 @@ Define qué información necesita conservar el juego y cómo se estructura.
 
 - **Progreso.** Nivel, punto de control y estado de partida completada.
 - **Configuración.** Audio, video, controles y accesibilidad en un archivo separado.
-- **Inventario.** La fotografía se registra como hito. Las piedras están disponibles desde el inicio.
+- **Inventario.** El plato de molletes y la fotografía se registran mediante hitos. Las piedras están disponibles desde el inicio.
 - **Estadísticas.** La primera versión solo necesita el registro de finalización.
 - **Desbloqueos.** Paso a la Iglesia, altar disponible y acceso al sendero final.
 - **Otros.** Versión del formato de guardado.
@@ -18,7 +18,7 @@ Define qué información necesita conservar el juego y cómo se estructura.
 | Entidad | Campos principales |
 | --- | --- |
 | Partida | Versión, nivel, punto de control y finalización. |
-| Hitos de la Selva | Derrumbe confirmado y recuerdo de la mesa completado. |
+| Hitos de la Selva | Derrumbe confirmado, plato colocado y recuerdo de la mesa completado. |
 | Hitos de la Iglesia | Diablo derrotado, fotografía obtenida y revelación completada. |
 | Preferencias | Volúmenes, resolución, teclas, sensibilidad y opciones de accesibilidad. |
  
