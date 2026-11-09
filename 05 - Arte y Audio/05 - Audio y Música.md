@@ -1,9 +1,5 @@
 # Audio y Música
 
-## Descripción de la sección
-
-Define la identidad sonora y cómo el audio comunica información al jugador.
-
 ## Música
 
 **Estilo:** Ambient lo-fi melancólico y Atmospheric Jungle
@@ -54,8 +50,6 @@ Define la identidad sonora y cómo el audio comunica información al jugador.
 **Idiomas:** Español
 
 ## Mezcla
-
-Define prioridades, volumen relativo y comportamiento de la música ante eventos importantes.
 
 La prioridad sera los efectos, ya que seran los ecargados de avisar al jugador que sucedera o esta sucediendo, la musica de ambiente estara como segundo plano 
 

@@ -99,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -159,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,10 +199,11 @@
     "07 - Tecnología/01 - Arquitectura Técnica.md",
     "04 - Contenido/01 - Estructura del Contenido.md",
     "01 - Visión/01 - Ficha del Proyecto.md",
+    "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
+    "11 - Referencia de Diseño/03 - Plataformas y Consolas.md",
     "Sin título 1.base",
     "Sin título.base",
     "README.md",
-    "00 - Acerca de esta guía.md",
-    "00 - Índice.md"
+    "00 - Acerca de esta guía.md"
   ]
 }

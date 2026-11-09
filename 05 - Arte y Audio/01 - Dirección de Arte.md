@@ -1,9 +1,5 @@
 # Dirección de Arte
 
-## Descripción de la sección
-
-Define la identidad visual del videojuego y las reglas que deben seguir los recursos gráficos.
-
 ## Identidad visual
 
 **Estilo:** Voxel Art 3D Estilizado
