@@ -27,13 +27,19 @@ Describe iluminación global, fuentes de luz y cambios durante el juego.
 
 ## Efectos visuales
 
-- Partículas: 
-- Clima: 
-- Humo: 
-- Fuego: 
-- Agua: 
-- Magia / energía: 
-- Impactos: 
+- **Partículas:** Pétalos de cempasúchil flotantes, polvillo de azúcar de Abbi, chispas de fuego y cenizas.
+
+- **Clima:** Niebla volumétrica densa y baja en el suelo del laberinto de la jungla.
+
+- **Humo:** Humo negro denso saliendo de los braseros y del cuerpo del Diablo.
+
+- **Fuego:** Llamas estilizadas en bloques (_voxel fire_) en antorchas y ataques del jefe.
+
+- **Agua:** Charcos estilizados en la jungla.
+
+- **Magia / energía:** Haz de luz cónico rojo (mirada de detección del Diablo) y ráfagas de luz celestial al romper los vitrales.
+
+- **Impactos:** Pequeña explosión cúbica de vóxeles al romper soportes o impactar rocas.
 
 ## Recursos requeridos
 
