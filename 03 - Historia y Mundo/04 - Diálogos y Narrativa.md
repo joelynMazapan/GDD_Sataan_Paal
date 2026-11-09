@@ -1,115 +1,50 @@
 # Diálogos y Narrativa
 
-## Descripción de la sección
-
-Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
-
-La narrativa de Sata'an paal se desarrolla mediante la exploración de los escenarios, las interacciones con personajes y entidades espirituales, los objetos significativos y las secuencias narrativas. A través de estos recursos, el jugador conocerá progresivamente el pasado de Iktan, las circunstancias de su cautiverio y la verdadera naturaleza del mundo que recorre.
-La historia busca generar una atmósfera de misterio, tensión y reflexión, abordando las consecuencias humanas del secuestro y el sufrimiento que este provoca.
-
 ## Métodos narrativos
 
-| Método          | Aplicación en el videojuego                                                                                                |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Diálogo         | Interacciones breves entre Iktan y los personajes que encuentra, especialmente la mujer de blanco.                         |
-| Cinemáticas     | Secuencias cortas al inicio, al finalizar determinados niveles y durante el desenlace.                                     |
-| Texto ambiental | Mensajes, inscripciones y pistas integradas en los escenarios que ayudan a comprender el entorno.                          |
-| Objetos         | Elementos que permiten resolver obstáculos y recuperar fragmentos de los recuerdos de Iktan.                               |
-| Exploración     | Descubrimiento de pistas, rutas alternativas y elementos que revelan gradualmente la historia.                             |
-| Audio           | Música ambiental, sonidos de las criaturas, efectos del entorno y señales auditivas que refuerzan la tensión.              |
-| Narración       | Textos o fragmentos narrativos breves que conectan los acontecimientos y muestran la evolución emocional del protagonista. |
-
+| Método | Aplicación |
+| --- | --- |
+| Escenografía | La mesa, la fotografía y el cempasúchil conectan el recorrido con la memoria familiar. |
+| Gestos de Abbi | Su mirada y postura señalan rutas, amenazas o puntos de interés. Una señal visual o un subtítulo transmite la misma pista cuando corresponde. |
+| Líneas de Iktan | Frases cortas en momentos de calma expresan lo que comprende en esa etapa. |
+| Secuencias breves | El recuerdo familiar, la transformación del pedestal y la despedida marcan cambios de objetivo. |
+| Audio y silencio | Los crujidos y las vocalizaciones anuncian peligro. Después de cada resolución, la mezcla deja espacio para observar el cambio. |
+| Interfaz contextual | Las indicaciones describen la acción inmediata. El HUD de la Iglesia muestra cuántos vitrales se han despejado. |
 
 ## Estructura de diálogo
----
 
-### Escena 1 - El encuentro con la mujer de blanco
----
-**Participantes:** Iktan y la mujer de blanco.
+| Escena | Participantes y contexto | Línea o acción propuesta | Participación y resultado |
+| --- | --- | --- | --- |
+| Despertar en la Selva | Iktan encuentra a Abbi cerca de la primera cobertura. | Iktan: «¿Conoces el camino?». Abbi mira hacia un tronco caído y espera. | El jugador recupera el control y decide cuándo avanzar. |
+| Ruinas | Iktan observa el techo dañado y la columna. | Iktan: «Si consigo que se meta ahí…». Abbi dirige la mirada hacia la estructura. | La pista invita a comprobar la trampa. El jugador prepara la distracción y el derrumbe. |
+| Mesa espectral | Iktan se acerca tras neutralizar al Nahual. | Iktan: «Esto se siente como casa». La luz de la mesa cambia y los árboles se abren. | El jugador activa el recuerdo y sigue el camino a la Iglesia. |
+| Vitrales | El Diablo barre la nave con dos haces rojos. | Indicaciones de objetivo: «Abre los vitrales» y «Vitrales: 0/3». | El jugador elige el orden, desvía los haces con piedras y retira las tablas. |
+| Fotografía | Tras la derrota del Diablo, el pedestal se transforma en altar y aparece el retrato. | Iktan toma la fotografía y dice «Soy yo…». Una pausa deja ver su reacción al reconocerla. | La escena confirma que falleció durante su secuestro y devuelve el control para recorrer el sendero final. |
+| Despedida | Iktan y Abbi llegan al sendero iluminado. | Iktan: «Gracias por venir conmigo». Abbi se detiene en el umbral. | El jugador camina hacia la luz. Aparecen el mensaje final y los créditos. |
 
-**Objetivo de la conversación:** Introducir el misterio del mundo espiritual y motivar al protagonista a continuar su recorrido.
+### Mensaje final propuesto
 
-**Contexto:** Iktan se encuentra en un lugar desconocido y busca una salida. La mujer aparece brevemente y le indica que debe continuar avanzando, sin explicarle completamente dónde se encuentra.
-
-**Opciones del jugador:** No se contemplan opciones de diálogo; la conversación es lineal y está diseñada para presentar la historia.
-
-**Consecuencias:** El jugador recibe las primeras pistas sobre el propósito de su viaje y conoce la existencia de Abbi, quien lo acompañará.
-
-
-### Escena 2 - La huida del calabozo
----
-**Participantes:** Iktan y el guardia esquelético.
-
-**Objetivo de la conversación:** Transmitir la amenaza que representa el enemigo y reforzar la sensación de peligro durante el escape.
-
-**Contexto:** Iktan intenta abandonar el calabozo mientras el guardia patrulla la zona y reacciona ante los ruidos que produce el protagonista.
-
-**Opciones del jugador:** No existen opciones de diálogo. El jugador decide cómo avanzar mediante el sigilo, las distracciones y el uso de objetos.
-
-**Consecuencias:** Las acciones del jugador determinan si logra evitar al guardia o si es detectado, lo que puede iniciar una persecución o un enfrentamiento.
-
-
-### Escena 3 - El descubrimiento del mundo espiritual
----
-**Participantes:** Iktan y Abbi.
-
-**Objetivo de la conversación:** Reforzar el vínculo entre ambos y sugerir que el lugar en el que se encuentra Iktan no es un espacio ordinario.
-
-**Contexto:** Durante la exploración, Iktan encuentra señales y elementos que no logra explicar. Abbi reacciona ante determinados objetos y lo orienta hacia zonas importantes.
-
-**Opciones del jugador:** Explorar el entorno, seguir a Abbi o investigar los elementos que despiertan su curiosidad.
-
-**Consecuencias:** La exploración permite descubrir pistas adicionales sobre el mundo espiritual y el pasado del protagonista.
-
-
-### Escena 4 - El enfrentamiento final
----
-**Participantes:** Iktan y la entidad oscura.
-
-**Objetivo de la conversación:** Culminar el conflicto sobrenatural y preparar la revelación final de la historia.
-
-**Contexto:** Iktan llega a la iglesia, donde debe enfrentarse a la entidad oscura y activar los vitrales para abrir el camino hacia el desenlace.
-
-**Opciones del jugador:** No existen decisiones verbales. El jugador debe observar los patrones de ataque, esquivar y aprovechar las oportunidades para activar los vitrales.
-
-**Consecuencias:** Al superar el enfrentamiento, Iktan puede continuar hacia el desenlace, en el que comprende progresivamente su destino y la necesidad de aceptar su muerte.
-
+> Iktan es un personaje ficticio. El secuestro deja heridas en las víctimas, sus familias y sus comunidades. Recordar con dignidad y escuchar sus historias nos invita a construir una sociedad más empática y solidaria.
 
 ## Tono
----
-Describe el lenguaje, humor, formalidad y estilo de comunicación.
 
-El videojuego utiliza un tono oscuro, misterioso y emotivo, con momentos de tensión y pausas de tranquilidad durante la exploración.
-
-- **Lenguaje:** Sencillo y natural, acorde con la edad de Iktan. Los diálogos deben ser breves y comprensibles.
-- **Humor:** Limitado y sutil, principalmente mediante las reacciones de Abbi o pequeños momentos de alivio entre situaciones tensas.
-- **Formalidad:** Informal en las conversaciones del protagonista y más solemne o enigmática en las intervenciones de las entidades espirituales.
-- **Estilo de comunicación:** Narración indirecta, frases cortas, silencios y pistas que permitan al jugador interpretar los acontecimientos.
-- **Ambientación emocional:** El miedo y la incertidumbre predominan al inicio, mientras que la tristeza, la comprensión y la aceptación adquieren mayor importancia hacia el final.
-
+La Selva se apoya en la incertidumbre y el acecho. La mesa introduce una pausa íntima. La Iglesia pasa del último enfrentamiento a la revelación y termina con una despedida serena. Iktan habla con palabras cotidianas y frases cortas. Las criaturas se expresan mediante movimiento, luz y sonido. La revelación se centra en la fotografía, el silencio y la reacción del niño, sin recrear gráficamente el cautiverio.
 
 ## Decisiones narrativas
----
-Aunque el juego no contempla decisiones de diálogo que modifiquen la historia principal, las acciones de exploración pueden influir en la cantidad de información que descubre el jugador.
 
-| Decisión                  | Opciones                                             | Consecuencia                                                                                  |
-| ------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Exploración de escenarios | Investigar o continuar directamente.                 | Descubrir pistas adicionales o avanzar con información limitada.                              |
-| Interacción con objetos   | Recoger o ignorar objetos significativos.            | Obtener recursos para superar obstáculos o perder pistas relacionadas con el pasado de Iktan. |
-| Resolución de obstáculos  | Utilizar distracciones o intentar avanzar sin ellas. | Cambiar la dificultad y el riesgo de ser detectado.                                           |
-| Enfrentamientos           | Observar patrones o actuar impulsivamente.           | Aprovechar las debilidades del enemigo o exponerse a sus ataques.                             |
-Estas decisiones afectan la experiencia de juego y la comprensión de la historia, pero no modifican el desenlace principal.
+| Decisión del jugador | Efecto |
+| --- | --- |
+| Elegir cuándo y desde dónde cruzar | Cambia la exposición y el ritmo del tramo. |
+| Observar a Abbi o guiarse por el escenario | Cambia cómo se descubre la ruta. |
+| Elegir el punto de impacto de una piedra | Cambia la orientación de la amenaza y la oportunidad de avanzar. |
+| Elegir el orden de los tres vitrales | Cambia el recorrido por la nave. El último vitral despejado siempre resuelve el encuentro. |
+
+La secuencia de recuerdos, la revelación y el desenlace son lineales. Las decisiones del jugador determinan cómo resuelve los obstáculos.
 
 ## Localización
----
-¿El juego tendrá diferentes idiomas?
 
-El videojuego estará disponible inicialmente en español, debido a que es el idioma principal de su público objetivo y permite desarrollar los diálogos y la narrativa de manera natural.
+El español de México es el idioma base propuesto para interfaz, subtítulos y diálogos. Los términos en lengua maya que se incluyan se investigaron en internet.
 
-**Idiomas previstos:**
-- **Español:** Idioma principal del videojuego, incluidos diálogos, textos narrativos e interfaz.
-
-Los términos en lengua maya que formen parte de la ambientación o de elementos culturales se conservarán cuando corresponda, acompañados de explicaciones contextuales para facilitar su comprensión. La incorporación de otros idiomas dependerá del alcance y los recursos disponibles para el desarrollo.
-
+Los subtítulos deben identificar al hablante cuando no sea evidente y describir sonidos relevantes, como el crujido que anuncia al Nahual. Las pistas de peligro también tendrán una señal visual. El texto de interacción muestra la tecla configurada por el jugador. Las líneas y los textos deben mantenerse separados de las imágenes para que puedan corregirse o traducirse.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Personajes]] · [[01 - Estructura del Contenido]] →

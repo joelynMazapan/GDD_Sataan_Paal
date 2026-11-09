@@ -1,218 +1,79 @@
 # Personajes
 
-## Descripción de la sección
-
-Cada personaje importante debe tener una función clara dentro de la historia y/o la jugabilidad.
-
-## Plantilla de personaje
----
-### Nombre
-
-**Rol:**
-
-**Función jugable:**
-
-**Función narrativa:**
-
-**Descripción física:**
-
-**Personalidad:**
-
-**Motivaciones:**
-
-**Objetivos:**
-
-**Conflicto:**
-
-**Relaciones:**
-
-**Arco del personaje:**
-
-**Habilidades:**
-
-**Debilidades:**
-
-**Frases o tono de diálogo:**
-
-**Referencias visuales:**
-
-
 ## Personajes
----
 
-### Protagonista
----
 ### Iktan
 
-**Rol:** Niño secuestrado que recorre el mundo espiritual en busca de una salida.
+| Campo | Definición |
+| --- | --- |
+| Rol | Protagonista jugable. Niño que busca regresar con su familia. |
+| Función jugable | Explorar, usar coberturas, lanzar piedras y manipular elementos del escenario. |
+| Función narrativa | Mostrar la travesía desde la perspectiva de un niño que intenta entender su desaparición. |
+| Descripción física | Figura infantil de silueta reconocible. Como propuesta visual, usa ropa cotidiana con señales leves de desgaste. Sus gestos reflejan cautela y cansancio. |
+| Personalidad | Curioso, observador y perseverante. Su miedo se expresa en gestos y frases breves. |
+| Motivación y objetivo | Al principio quiere volver a casa. Tras derrotar al Diablo, obtiene su fotografía del altar, comprende lo ocurrido y busca concluir el recorrido hacia la luz. |
+| Conflicto | Interpreta las amenazas como parte de una huida mientras descubre que ya ha muerto. |
+| Relaciones | Confía en Abbi de manera gradual. Reconoce el vínculo con su familia a través del altar. |
+| Arco | Desorientación, confianza, reconocimiento y despedida. |
+| Habilidades | Caminar, correr, agacharse, apuntar y lanzar piedras, e interactuar con la columna, la mesa y las tablas. |
+| Debilidades | Carece de habilidades de combate. Depende de la cobertura, la distancia y el momento de actuar. |
+| Tono de diálogo | Cotidiano y breve. Línea propuesta al despertar: «¿Por dónde se sale de aquí?». |
+| Referencias visuales | Ropa infantil cotidiana y animación corporal que distinga calma, cautela y carrera. |
 
-**Función jugable:** Controlar al personaje principal durante la exploración, el sigilo, la resolución de obstáculos, las distracciones y los enfrentamientos contra enemigos.
-
-**Función narrativa:** Representar las consecuencias humanas del secuestro y el desplazamiento forzado, mientras reconstruye los recuerdos que le permitirán comprender lo ocurrido.
-
-**Descripción física:** 
-
-**Personalidad:** Curioso, cauteloso y perseverante. Aunque siente miedo ante las criaturas que encuentra, continúa avanzando por su deseo de regresar con su familia.
-
-**Motivaciones:** Encontrar una salida del lugar en el que se encuentra y reunirse nuevamente con sus seres queridos.
-
-**Objetivos:**
-- Escapar del calabozo y sobrevivir a los peligros de los siguientes niveles.
-- Recuperar objetos y recuerdos relacionados con su pasado.
-- Llegar al altar final y descubrir la verdad sobre su destino.
-
-**Conflicto:** Iktan cree que sigue vivo y que únicamente necesita escapar. Su desconocimiento de la muerte le impide comprender la naturaleza del mundo que lo rodea.
-
-**Relaciones:** Mantiene un vínculo espiritual con Abbi, quien lo acompaña y orienta durante su recorrido. También recibe indicaciones indirectas de la mujer de blanco.
-
-**Arco del personaje:** Pasa del miedo y la confusión a la comprensión de su pasado y la aceptación de su muerte. Su recorrido culmina cuando logra liberarse de aquello que lo mantiene atrapado en el mundo espiritual.
-
-**Habilidades:**
-- Caminar, correr y explorar los escenarios.
-- Ocultarse y evadir enemigos.
-- Lanzar piedras u objetos para generar distracciones.
-- Utilizar objetos del entorno para resolver obstáculos.
-- Recuperar recuerdos mediante elementos significativos.
-
-**Debilidades:** Es vulnerable a los ataques de los enemigos y no posee fuerza suficiente para enfrentarse directamente a todas las criaturas. Debe aprovechar el entorno, observar patrones y actuar estratégicamente.
-
-**Frases o tono de diálogo:** Su tono es natural, inocente y temeroso. Sus diálogos deben reflejar confusión y preocupación, evolucionando conforme recupera sus recuerdos.
-	**Ejemplo:** _«Tengo que encontrar la salida... mi familia debe estar esperándome»_.
-
-**Referencias visuales:**
-
-
----
-
-
-### Antagonista
----
-### Entidad oscura
-
-**Rol:** Entidad sobrenatural que representa la última barrera entre Iktan y su liberación.
-
-**Función jugable:** Constituir el enfrentamiento final, obligando al jugador a observar sus patrones de ataque, esquivar sus embestidas y aprovechar las oportunidades para activar los vitrales de la iglesia.
-
-**Función narrativa:** Representar el miedo, el sufrimiento y el vínculo que mantiene al protagonista atrapado en el mundo espiritual.
-
-**Descripción física:** Figura oscura de forma poco definida, rodeada de sombras y energía rojiza. Su silueta debe transmitir una amenaza superior a la de los enemigos anteriores.
-
-**Personalidad:** Hostil, intimidante y persistente. Se manifiesta mediante movimientos agresivos y una presencia que altera el ambiente.
-
-**Motivaciones:** Su propósito dentro de la historia es impedir que Iktan alcance la liberación. Su origen y motivación específica pueden mantenerse ambiguos para conservar el misterio.
-
-**Objetivos:** Bloquear el avance del protagonista y mantenerlo dentro del espacio espiritual.
-
-**Conflicto:** Iktan debe superar el miedo que esta entidad representa para completar su recorrido y aceptar la verdad sobre su muerte.
-
-**Relaciones:** Es el obstáculo final del viaje de Iktan y está vinculada al conflicto sobrenatural del último nivel.
-
-**Arco del personaje:** Su presencia se intensifica hasta el enfrentamiento final. Tras ser derrotada, los vitrales de la iglesia permiten el paso de la luz y se abre el camino hacia la conclusión de la historia.
-
-**Habilidades:**
-- Realizar ataques directos y embestidas.
-- Controlar o intensificar las sombras del escenario.
-- Cambiar sus patrones de ataque durante el combate.
-- Presionar al jugador mediante zonas peligrosas y oportunidades limitadas de respuesta.
-
-**Debilidades:** Su derrota depende de que el jugador identifique sus patrones y aproveche los momentos adecuados para activar los vitrales. La luz constituye el elemento clave del enfrentamiento.
-
-**Frases o tono de diálogo:** No requiere diálogos convencionales. Puede comunicarse mediante sonidos distorsionados, rugidos y efectos ambientales.
-
-**Referencias visuales:** Entidades de terror sobrenatural en juegos 2D, siluetas negras, iluminación roja y animaciones que contrasten con la luz de los vitrales.
-
----
-
-### Personajes secundarios
----
 ### Abbi
 
-**Rol:** Xoloitzcuintle espiritual que acompaña a Iktan durante su recorrido.
+| Campo | Definición |
+| --- | --- |
+| Rol | Compañera espiritual y guía de Iktan. |
+| Función jugable | Señalar amenazas, rutas o puntos de interés mediante postura y mirada. |
+| Función narrativa | Representar compañía y continuidad entre el miedo de la Selva y el descanso final. |
+| Descripción física | Xoloitzcuintle pequeña, blanca, hecha de calaverita de azúcar y decorada con patrones coloridos. |
+| Personalidad | Atenta, serena y protectora. |
+| Motivación y objetivo | Acompañar a Iktan y orientarlo hacia el siguiente paso. |
+| Conflicto | Puede señalar un peligro. La decisión sobre cómo atravesarlo corresponde a Iktan. |
+| Relaciones | Se acerca por iniciativa propia. Su relación con Iktan crece mediante el seguimiento y las pausas que comparten. |
+| Arco | Pasa de figura desconocida a compañera reconocible y permanece con Iktan hasta el umbral final. |
+| Habilidades | Seguir, esperar, alertar y señalar. Su presencia no atrae a las amenazas. |
+| Debilidades | Sus pistas orientan. Los objetivos dependen de las acciones del jugador. |
+| Tono de diálogo | Comunicación mediante gestos, postura y sonidos suaves. |
+| Referencias visuales | Silueta del xoloitzcuintle y motivos de calaverita de azúcar legibles a distancia. |
 
-**Función jugable:** Servir como guía visual y narrativa, orientando al protagonista hacia elementos relevantes y reforzando la exploración.
+### El Nahual
 
-**Función narrativa:** Representar el acompañamiento espiritual y el vínculo entre Iktan y el camino que debe recorrer.
+| Campo | Definición |
+| --- | --- |
+| Rol | Amenaza principal de la Selva. |
+| Función jugable | Introducir el acecho, la investigación de sonidos y la persecución. |
+| Función narrativa | Representar el miedo de Iktan a que sus captores lo alcancen. |
+| Descripción física | Sombra inmensa con rasgos de jaguar desnutrido y lobo deforme. Su silueta sobresale entre ramas y niebla. |
+| Personalidad | Acechante, inquieto y territorial. |
+| Motivación y objetivo | Rastrear a Iktan y bloquear su paso hacia las ruinas. |
+| Conflicto y relaciones | Amenaza a Iktan. Su atención puede dirigirse hacia el impacto de una piedra. |
+| Arco | Pasa de presencia insinuada entre los árboles a amenaza visible en las ruinas. El derrumbe termina el encuentro. |
+| Habilidades | Acechar, investigar, perseguir y capturar por contacto. |
+| Debilidades | La cobertura limita su visión. Las piedras pueden atraerlo bajo el techo dañado. |
+| Tono de diálogo | Se comunica mediante respiración, crujidos y vocalizaciones. |
+| Referencias visuales | Movimientos felinos y una silueta irregular. La criatura es una interpretación propia del juego. |
 
-**Descripción física:** Perra xoloitzcuintle de aspecto espectral, con una silueta delgada y una presencia sobrenatural que puede distinguirse mediante un resplandor sutil.
+### El Diablo
 
-**Personalidad:** Leal, serena, protectora y observadora.
-
-**Motivaciones:** Guiar a Iktan y ayudarlo a avanzar por el mundo espiritual.
-
-**Objetivos:** Acompañar al protagonista, señalar elementos importantes y conducirlo hacia la comprensión de su destino.
-
-**Conflicto:** Debe guiar a Iktan sin poder resolver directamente todos los peligros que encuentra.
-
-**Relaciones:** Mantiene un vínculo cercano con Iktan y fue enviada por la mujer de blanco para acompañarlo.
-
-**Arco del personaje:** Pasa de ser una presencia misteriosa a convertirse en una compañera fundamental para el recorrido espiritual de Iktan.
-
-**Habilidades:** Orientación, acompañamiento y señalización de elementos de interés mediante movimientos o reacciones.
-
-**Debilidades:** No sustituye las acciones del jugador ni puede superar por sí sola los obstáculos principales.
-
-**Frases o tono de diálogo:** No necesita hablar. Puede expresarse mediante ladridos, gestos, movimientos de la cabeza y sonidos suaves.
-
-**Referencias visuales:** Xoloitzcuintles mexicanos, representaciones espirituales de animales guía y diseños de compañeros de aventuras 2D.
-
----
-### La mujer de blanco
-
-**Rol:** Figura sobrenatural que orienta indirectamente a Iktan.
-
-**Función jugable:** Proporcionar pistas narrativas y orientar al jugador hacia el propósito de su recorrido.
-
-**Función narrativa:** Conectar el viaje del protagonista con el mundo espiritual y anticipar la verdad que se revela en el desenlace.
-
-**Descripción física:** Figura femenina de apariencia espectral, vestida con un atuendo blanco y rodeada de una atmósfera misteriosa. Su rostro y sus movimientos pueden mantenerse parcialmente ocultos.
-
-**Personalidad:** Enigmática, serena y compasiva, aunque distante.
-
-**Motivaciones:** Ayudar a Iktan a recorrer el mundo espiritual y llegar al momento en que pueda comprender su situación.
-
-**Objetivos:** Guiarlo sin revelarle prematuramente la verdad sobre su muerte.
-
-**Conflicto:** Debe conducirlo hacia la aceptación de su destino sin eliminar el descubrimiento personal que forma parte de la historia.
-
-**Relaciones:** Es quien envía a Abbi para acompañar al protagonista.
-
-**Arco del personaje:** Su significado se comprende progresivamente a través de sus apariciones y de las pistas que deja durante el recorrido.
-
-**Habilidades:**
-- Apariciones y desapariciones.
-- Orientación indirecta.
-- Comunicación mediante señales o mensajes breves.
-
-**Debilidades:** Su intervención es limitada; no puede realizar el recorrido ni tomar las decisiones en lugar de Iktan.
-
-**Frases o tono de diálogo:** Enigmático, pausado y simbólico.
-	**Ejemplo:** _«Hay caminos que solo pueden recorrerse cuando recordamos quiénes somos»._
-
-**Referencias visuales:** Figuras espectrales del folclore mexicano, vestimentas blancas y apariciones de estética sobrenatural.
-
----
-
-### Enemigos por nivel
----
-Estos personajes son antagonistas secundarios o amenazas jugables. Su función es representar las dificultades que Iktan debe superar en cada etapa.
-
-| Enemigo                     | Rol                                                               | Función jugable                                                                                            | Habilidades                                                                       | Debilidades                                                                                                                        | Función narrativa                                                                      |
-| --------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Guardia esquelético         | Jefe del nivel 1: El Calabozo.                                    | Introducir las mecánicas de sigilo, distracción y aprovechamiento del entorno.                             | Patrullar, perseguir y atacar al protagonista.                                    | Puede distraerse con piedras y otros objetos. Para derrotarlo, el jugador debe utilizar aceite para hacerlo resbalar.              | Representar el primer gran obstáculo que Iktan debe superar para escapar del calabozo. |
-| El nahual                   | Jefe del nivel 2: La Selva Hostil.                                | Poner a prueba la evasión, la exploración y el uso estratégico del entorno.                                | Detectar, perseguir y embestir al protagonista.                                   | Puede ser atraído hacia una zona preparada para hacerlo caer y quedar sepultado.                                                   | Incrementar la sensación de peligro y dificultad durante el recorrido.                 |
-| Esqueletos y almas errantes | Enemigos del nivel 3: La Ciudad Colonial Abandonada.              | Crear obstáculos que requieren observación, distracción y uso de objetos.                                  | Vigilar zonas, perseguir al protagonista y bloquear rutas.                        | Pueden distraerse o calmarse mediante objetos del entorno, como trompos y mandarinas, según las mecánicas definidas para el nivel. | Reforzar la atmósfera de abandono y anticipar la naturaleza espiritual del mundo.      |
-
+| Campo | Definición |
+| --- | --- |
+| Rol | Antagonista final de la Iglesia. |
+| Función jugable | Barrer la nave con dos haces y obligar a coordinar cobertura, distracción y retirada de tablas. |
+| Función narrativa | Representar la última amenaza ligada al cautiverio de Iktan. |
+| Descripción física | Sombra de gran escala sin rostro definido. Dos puntos luminosos proyectan haces rojos. |
+| Personalidad | Intimidante, metódico y persistente. |
+| Motivación y objetivo | Capturar a Iktan antes de que llegue a la luz. |
+| Conflicto y relaciones | Bloquea a Iktan mientras el niño todavía busca una salida. Su derrota permite que aparezca el altar con la fotografía. |
+| Arco | Aparece como la barrera final y se disuelve cuando el último vitral deja entrar la luz. |
+| Habilidades | Barrer sectores, girar hacia un impacto audible y capturar al detectar a Iktan con un haz sin obstrucción. |
+| Debilidades | La cobertura opaca bloquea los haces. Los impactos desvían temporalmente su orientación y la luz de los tres vitrales resuelve el encuentro. |
+| Tono de diálogo | Presencia sonora grave y ambiental, sin parlamentos. |
+| Referencias visuales | Silueta negra y haces definidos cuyo movimiento pueda leerse desde cobertura. |
 
 ## NPC
----
-Documenta qué NPC existen, qué hacen y cómo interactúan con el jugador.
 
-| NPC                                 | Función e interacción                                                                                                             |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| La mujer de blanco                  | Aparece en momentos específicos para proporcionar pistas y orientar indirectamente a Iktan.                                       |
-| Almas errantes                      | Se encuentran en la ciudad colonial abandonada. Algunas pueden reaccionar ante Iktan y ser calmadas mediante objetos del entorno. |
-| Presencias espirituales ambientales | Figuras o siluetas que aparecen en los escenarios para reforzar la atmósfera y sugerir fragmentos de la historia.                 |
-
-
+Abbi es la compañera activa durante el recorrido. La familia de Iktan está presente mediante el altar y la memoria, sin requerir personajes interactivos en los niveles. El Nahual y el Diablo se documentan como amenazas controladas por el juego.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mundo]] · [[04 - Diálogos y Narrativa]] →
