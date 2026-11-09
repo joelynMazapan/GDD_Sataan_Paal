@@ -17,6 +17,12 @@ Define la estética y necesidades visuales de escenarios, fondos, objetos y elem
 
 Usar conjuntos reutilizables de suelo, muros, arcos, columnas, vegetación y mobiliario, con una cuadrícula y pivotes consistentes. Las variantes de altura y orientación crean rutas y cobertura. La columna inestable, los vitrales, la mesa y el altar requieren versiones propias con estados visuales diferenciados.
 
+- **Vegetación y Naturaleza:** Arbustos cúbicos, troncos, ramas y rocas en diferentes tamaños escalables
+
+- **Arquitectura:** Módulos de muros de piedra, columnas, arcos, escalinatas y tejas
+
+- **Utilería:** Cajas de madera, estanterías, velas individuales, floreros de barro y ofrendas repetibles
+
 ## Iluminación
 
 La luz direccional establece la lectura general de cada nivel. Las luces puntuales (*point lights*) acentúan cruces, rutas de patrullaje y elementos interactivos. En la Selva, la niebla verde y el follaje crean profundidad. En la Iglesia, los haces deben distinguirse de la bruma y de las luces decorativas. Cada vitral despejado añade luz. El tercero disuelve al Diablo y da paso a la transformación del pedestal.

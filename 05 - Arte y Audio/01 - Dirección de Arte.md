@@ -2,33 +2,44 @@
 
 ## Identidad visual
 
-**Estilo:** Voxel Art 3D en todo el juego. Los personajes, entornos y objetos se modelan en Blender y se integran en Unity. Las formas de bloques buscan una estética nostálgica y permiten distinguir obstáculos y rutas de sigilo.
+**Estilo:** Voxel Art 3D Estilizado
 
-**Referencias:** Modelos de personajes indicados en [[02 - Personajes y Animación]], arquitectura y vegetación inspiradas en Yucatán, y elementos de Día de Muertos integrados en la escenografía.
+**Referencias:** Crossy Road, 3D Dot Game Heroes, Minecraft y Pixel Gun 3D
 
-**Sensación buscada:** Misterio y tensión en un México inspirado en el periodo de 2010 a 2015. La Selva se siente húmeda y cerrada. La Iglesia pasa de la bruma fría y la oscuridad a una luz cálida durante la despedida.
+**Sensación buscada:** Legibilidad inmediata, dinamismo, tono vibrante y retro-moderno
 
-**Nivel de realismo:** Estilización geométrica. Las siluetas, materiales y gestos deben ser reconocibles desde la cámara de juego.
+**Nivel de realismo:** Bajo / Estilizado
 
-**Formas predominantes:** Bloques apilados, aristas rectas y perfiles escalonados. Las coberturas muestran masa y altura suficientes para que el jugador anticipe su función.
+**Formas predominantes:** Ortogonales y angulares compuestas por cubos
 
-**Iluminación:** Claroscuro para orientar y expresar exposición. En la Selva, la protección depende de la línea de visión y de la hierba alta al agacharse. En la Iglesia, depende de la cobertura opaca frente a los haces. La iluminación ambiental ayuda a leer esas reglas.
+**Iluminación:** 
 
-**Materiales:** Piedra erosionada, madera deteriorada, follaje por capas, tela mate y superficies de azúcar estilizada. Reservar los materiales emisivos para señales de amenaza, luz de vitrales y elementos narrativos.
+- _En la Iglesia:_ Predomina una iluminación ambiental fría (azul noche y morado oscuro), complementada y contrastada por luces cálidas de antorchas y velas (amarillo/naranja).
+- _En la Jungla:_ Ambiente predominantemente verde oscuro y sombrío, con iluminación localizada cálida en puntos específicos y contraste marcado entre zonas iluminadas y sombras densas.
+
+**Materiales:** Materiales estilo _Lit_ y _Unlit_ en URP con acabados mate y colores sólidos por paleta de vóxeles.
 
 ## Paleta de color
 
-**Colores principales:** Verde musgo, tierra húmeda y gris piedra en la Selva. Gris oscuro y rojo apagado en la Iglesia.
+**Colores principales:** Naranja Cempasúchil, Morado Papel Picado, Azul Noche y Verde Musgo Profundo.
 
-**Colores secundarios:** Marfil y paja para Iktan, morado oscuro y blanco hueso para Abbi, y naranja cempasúchil y dorado cálido para el desenlace.
+**Colores secundarios:** Gris Piedra Colonial, Madera Oscura y Negro Obsidiana.
 
-**Colores para información jugable:** Rojo intenso y contorno visible para los haces. Marfil para indicaciones de interacción. Los cambios de estado se distinguen también por forma, texto o movimiento.
+**Colores para información jugable:** Rojo Carmesí (para la mirada de alerta del Diablo y presencia hostil) y Amarillo Neón/Oro (para puntos interactivos, velas y elementos de guía).
 
 ## Reglas visuales
 
-1. Mantener una escala de bloques coherente y una silueta clara para personajes, amenazas y coberturas.
-2. Diferenciar los elementos interactivos por forma y contexto. La columna usa grietas visibles y los vitrales, tablas deterioradas.
-3. Separar los haces de detección de la bruma roja y de las luces decorativas. La niebla debe conservar la lectura del siguiente cruce.
+- **Consistencia de rejilla voxel:** Todos los elementos de entorno y personajes deben mantener la misma proporción de escala volumétrica por unidad en Unity.
+    
+- **Restricción cromática en enemigos sobrenaturales:** Los elementos del Nahual se limitan estrictamente a bases oscuras, tonos morados/violetas y detalles luminosos amarillos, excluyendo por completo el cian.
+    
+- **Jerarquía de contraste:** Los peligros o líneas de visión hostiles deben destacar claramente con tonos rojizos o destellos de alta saturación frente a los fondos oscuros de la iglesia o la jungla.
+
+## Referencias
+
+Añade enlaces o imágenes dentro de la carpeta del proyecto.
+
+-
 
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Misiones y Desafíos]] · [[02 - Personajes y Animación]] →

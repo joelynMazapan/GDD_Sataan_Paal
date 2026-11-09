@@ -2,7 +2,7 @@
 
 ## Música
 
-**Estilo:** Ambient lo-fi melancólico
+**Estilo:** Ambient lo-fi melancólico y Atmospheric Jungle
 
 **Instrumentación:**
 
@@ -14,13 +14,17 @@
 
 - Diseño Sonoro Aplicado: Uso de texturas digitales, glitches, filtros agresivos y efectos de modulación.
 
+- Baterías Orgánicas / Acústicas y Breaks: Se usan samples acústicos procesados
+
+- Elementos de Jazz: Teclados u ondas triangulares que ejecutan acordes de novena
+
 **Temas principales:**
 
 - Menu Principal
-- Nivel 1, 2, 3 y 4
+- Nivel de Jungla
 - Persecución
-- Escondite
-- Pelea con jefes
+- Pelea con el jefe
+- Cinematica 
 
 **Música dinámica:** Sí 
 
@@ -30,12 +34,12 @@
 | -------------------- | ----------------------- | ---------------------------------------------- |
 | Visto por el enemigo | Suspiro de el enemigo   | Trasmitir un aviso al jugador del avistamiento |
 | Lanzamiento de rocas | Sonido de roca          | Dar feedback de la acción de lanzar            |
-| Recoger objeto       | Sonido brillante        | Feedback de la acción de recoger un objeto     |
-| Esconderse           | Sonido de cajas u hojas | Feedback de la acción de esconderse            |
+| Pisadas              | Sonido de pisadas       |                                                |
+| Esconderse           | Sonido de cajas u hojas | Dar feedback de la acción de esconderse        |
 
 ## Audio espacial
 
-¿Se utilizará audio posicional? Sí
+¿Se utilizará audio posicional? No
 
 ## Voz
 
