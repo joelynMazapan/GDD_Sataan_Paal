@@ -56,7 +56,7 @@
 
 **Condición de fracaso:** Ser capturado antes de completar la acción. Si el Nahual abandona la zona, la columna permanece intacta y puede intentarse nuevamente.
 
-**Recompensa:** Neutralización del Nahual, aparición de la mesa espectral y guardado en S3.
+**Recompensa:** Neutralización del Nahual, aparición del plato de molletes y de la mesa espectral, y guardado en S3.
 
 **Consecuencias:** La zona deja de estar amenazada y comienza una pausa narrativa.
 
@@ -68,7 +68,7 @@
 
 **Tipo:** Principal.
 
-**Objetivo:** Interactuar con la mesa espectral y abrir el camino hacia la Iglesia.
+**Objetivo:** Recoger el plato de molletes, colocarlo en la mesa espectral y abrir el camino hacia la Iglesia.
 
 **Contexto:** Tras el derrumbe aparece una mesa sobrenatural. Su presencia sugiere que alguien recuerda y acompaña a Iktan.
 
@@ -76,8 +76,8 @@
 
 **Pasos:**
 
-1. Acercarse a la mesa espectral.
-2. Activar la interacción contextual.
+1. Recoger el plato de molletes que aparece tras derrotar al Nahual.
+2. Acercarse a la mesa y colocar el plato con la interacción contextual.
 3. Observar la breve manifestación del recuerdo familiar.
 4. Esperar la apertura del paso entre los árboles.
 5. Seguir a Abbi hasta el atrio de la Iglesia.

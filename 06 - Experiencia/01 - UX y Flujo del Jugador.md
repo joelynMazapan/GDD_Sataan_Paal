@@ -5,7 +5,7 @@
 
 ```text
 Inicio → Menú principal → Nueva partida o Continuar
-Nueva partida → Tutorial en la Selva → Ruinas → Mesa espectral → Iglesia
+Nueva partida → Tutorial en la Selva → Ruinas → Plato de molletes → Mesa espectral → Iglesia
 Iglesia → Tres vitrales → Derrota del Diablo → Fotografía y revelación → Sendero → Créditos
 Durante el juego → Pausa → Reanudar, Opciones, Reiniciar punto o Menú principal
 Captura → Reintentar desde el último punto de control o Menú principal

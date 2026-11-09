@@ -19,17 +19,17 @@
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | **Género principal**      | Sigilo.                                                                                                                    |
 | **Subgéneros**            | Acción-aventura y exploración.                                                                                             |
-| **Plataforma objetivo**   | PC (Windows y macOS).                                                                                                      |
+| **Plataforma objetivo**   | PC (Windows y macOS) y demo web en itch.io.                                                                                                      |
 | **Modo de juego**         | Un jugador (Single-player).                                                                                                |
 | **Conectividad**          | Juego local, sin conexión a Internet.                                                                                      |
-| **Perspectiva**           | Isométrica en un entorno tridimensional                                                                                    |
+| **Perspectiva**           | Tercera persona en un entorno tridimensional                                                                                    |
 | **Tipo de cámara**        | Dinámica, con ajustes de posición y orientación según el desplazamiento del personaje y las características del escenario. |
 | **Estructura de niveles** | Lineal, compuesta por dos escenarios progresivos.                                                                          |
 | **Temática**              | Secuestro, pérdida, memoria familiar y Día de Muertos.                                                                     |
 | **Ambientación**          | Fantasía oscura con elementos sobrenaturales y referencias a la cultura mexicana.                                          |
 
 **Clasificación y descripción de la experiencia**
-Videojuego de sigilo y acción-aventura en 3D para un jugador, con perspectiva isométrica y cámara dinámica. Presenta una estructura lineal de cuatro escenarios en los que el jugador debe explorar el entorno, evitar enemigos, aprovechar elementos de cobertura y utilizar objetos para generar distracciones. La experiencia incorpora elementos de supervivencia, enfrentamientos con jefes y una narrativa sobrenatural relacionada con el secuestro y sus consecuencias.
+Videojuego de sigilo y acción-aventura en 3D para un jugador, con cámara en tercera persona con Cinemachine. Presenta una estructura lineal de dos escenarios, La Selva Hostil y La Iglesia en los que el jugador debe explorar el entorno, evitar enemigos, aprovechar elementos de cobertura y lanzar piedras para distraer a los enemigos. La experiencia incorpora elementos de supervivencia, enfrentamientos con jefes y una narrativa sobrenatural relacionada con el secuestro y sus consecuencias.
 
 
 ## 1.3. Tecnología y herramientas
@@ -46,7 +46,7 @@ Videojuego de sigilo y acción-aventura en 3D para un jugador, con perspectiva i
 
 ## 1.4. Elevator Pitch
 
-Saatan Paal es un videojuego 3D de sigilo y acción-aventura en el que Iktan, un niño acompañado por Abbi, una pequeña perrita chihuahua espiritual, deben atravesar dos escenarios sobrenaturales utilizando la exploración, las distracciones y la evasión de enemigos para sobrevivir. A medida que avanza, descubrirá los recuerdos que rodean su desaparición y la verdad detrás de su historia, en una experiencia narrativa que aborda las consecuencias del secuestro y la importancia de los vínculos familiares.
+Saatan Paal es un videojuego 3D de sigilo y acción-aventura en el que Iktan, un niño acompañado por Abbi, una pequeña xoloitzcuintle espiritual de calaverita de azúcar, deben atravesar dos escenarios sobrenaturales utilizando la exploración, las distracciones y la evasión de enemigos para sobrevivir. A medida que avanza, descubrirá los recuerdos que rodean su desaparición y la verdad detrás de su historia, en una experiencia narrativa que aborda las consecuencias del secuestro y la importancia de los vínculos familiares.
 
 
 ## 1.5. Estado actual

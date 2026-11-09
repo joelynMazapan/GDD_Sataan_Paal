@@ -8,9 +8,9 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 **Tipo:** Automático por puntos de control.
 
-**Cuándo se guarda:** En S1 al iniciar la Selva, S2 antes de las ruinas, S3 tras neutralizar al Nahual y S4 al completar el recuerdo de la mesa. En la Iglesia, I1 se registra antes de entrar en la nave. I2 se registra después de derrotar al Diablo y se actualiza al obtener la fotografía y completar la revelación. El cierre registra la partida completada.
+**Cuándo se guarda:** En S1 al iniciar la Selva, S2 antes de las ruinas, S3 tras neutralizar al Nahual, con el plato disponible, y S4 al colocar el plato en la mesa y completar el recuerdo. En la Iglesia, I1 se registra antes de entrar en la nave. I2 se registra después de derrotar al Diablo y se actualiza al obtener la fotografía y completar la revelación. El cierre registra la partida completada.
 
-**Qué datos se guardan:** Versión del guardado, nivel, punto de control y hitos confirmados. Incluyen derrumbe, recuerdo de la mesa, derrota del Diablo, fotografía y revelación, y finalización. Reintentar desde I1 restaura los tres vitrales cubiertos. Desde I2 se restaura la derrota del Diablo y, según el hito, la fotografía disponible o el sendero habilitado. Las preferencias se guardan aparte.
+**Qué datos se guardan:** Versión del guardado, nivel, punto de control y hitos confirmados. Incluyen derrumbe, plato colocado, recuerdo de la mesa, derrota del Diablo, fotografía y revelación, y finalización. Reintentar desde I1 restaura los tres vitrales cubiertos. Desde I2 se restaura la derrota del Diablo y, según el hito, la fotografía disponible o el sendero habilitado. Las preferencias se guardan aparte.
 
 **Cantidad de ranuras:** Una ranura local de progreso como propuesta inicial. Nueva partida solicita confirmación si ya existe un guardado.
 

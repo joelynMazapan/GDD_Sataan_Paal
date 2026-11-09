@@ -4,17 +4,17 @@ Selva densa y lineal que avanza de sur a norte. La hierba alta, los troncos caí
 
 | CAMPO                      | DESCRIPCIÓN                                                                                                                                                                    |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Objetivo principal** | Atravesar la selva, neutralizar al Nahual en las ruinas y completar el recuerdo de la mesa espectral. |
+| **Objetivo principal** | Atravesar la selva, neutralizar al Nahual, recoger el plato de molletes y colocarlo en la mesa espectral. |
 | **Objetivos secundarios**  | Cruzar el sendero de la hierba alta sin que el Nahual entre en estado de alerta.                                                                                               |
 | **Duración estimada**      | 10 a 15 minutos.                                                                                                                                                               |
 | **Dificultad**             | Baja a media. Funciona como nivel de aprendizaje con un aumento progresivo de la exposición.                                                                                   |
 | **Mecánicas introducidas** | Movimiento, agacharse, correr, apuntar y lanzar piedras, ocultarse en hierba alta, superficies ruidosas, detección y persecución. |
 | **Mecánicas utilizadas** | En las ruinas se combina la distracción con piedras y la interacción de 2 segundos con la columna. |
 | **Enemigos / obstáculos**  | El Nahual; ramas secas que generan ruido; niebla que reduce la visibilidad; el claro con pocas coberturas.                                                                     |
-| **Recompensas** | Aparición de la mesa espectral y apertura del camino tras el recuerdo familiar. |
+| **Recompensas** | Plato de molletes al derrotar al Nahual. Colocarlo en la mesa activa el recuerdo y abre el camino. |
 | **Puntos de guardado** | S1 al despertar, S2 antes de las ruinas, S3 tras neutralizar al Nahual y S4 tras completar el recuerdo. |
 | **Condición de entrada**   | Iniciar una nueva partida después de la introducción, o continuar una partida guardada en este nivel.                                                                          |
-| **Condición de salida** | Activar la mesa, completar la escena y cruzar el paso que se abre hacia la Iglesia. |
+| **Condición de salida** | Colocar el plato en la mesa, completar la escena y cruzar el paso que se abre hacia la Iglesia. |
 | **Eventos narrativos** | Despertar y encuentro con Abbi, advertencia sobre el Nahual, derrumbe y recuerdo familiar en la mesa. |
 
 **Mapa / diagrama:** Despertar al sur → corredor de hierba alta y troncos → claro expuesto → ruinas al norte → mesa espectral y salida. En las ruinas, la zona de derrumbe queda separada del lateral protegido de la columna.
@@ -22,7 +22,7 @@ Selva densa y lineal que avanza de sur a norte. La hierba alta, los troncos caí
 ## Flujo del nivel
 
 ```text
-Despertar (tutorial) → Sendero de la hierba alta → El claro → Las ruinas: Nahual → Mesa espectral → Recuerdo familiar → Camino a la Iglesia
+Despertar (tutorial) → Sendero de la hierba alta → El claro → Las ruinas: Nahual → Plato de molletes → Mesa espectral → Recuerdo familiar → Camino a la Iglesia
 ```
 
 

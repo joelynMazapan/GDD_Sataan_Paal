@@ -28,7 +28,7 @@ Presentación
 | Lanzamiento de piedras | Prever la trayectoria, resolver el impacto y emitir el evento sonoro. | Entrada y colisiones. |
 | Percepción e IA | Evaluar cobertura, sonidos y haces, y decidir la respuesta del Nahual y del Diablo. | Posición de Iktan, geometría y eventos de impacto. |
 | Guía de Abbi | Seguir a Iktan y señalar rutas o peligros mediante gestos. | Posición de Iktan y objetivo actual. |
-| Entorno y objetivos | Resolver la columna, la mesa, los vitrales y la fotografía. | Interacción, estado de las amenazas y progresión. |
+| Entorno y objetivos | Resolver la columna, el plato de molletes, la mesa, los vitrales y la fotografía. | Interacción, estado de las amenazas y progresión. |
 | Gestor de partida | Coordinar pausa, captura, transición de nivel, reinicio y desenlace. | Objetivos y servicio de guardado. |
 | Persistencia | Registrar hitos confirmados y restaurar puntos de control. | Datos de progreso y preferencias. |
 | Presentación | Mostrar interfaz, animaciones, efectos y audio según el estado del juego. | Eventos de la partida y datos visibles. |
@@ -56,7 +56,7 @@ flowchart TD
     I --> K("Captura")
     J --> K
     F --> L("Objetivos y narrativa")
-    L --> M("Selva · Derrumbe y mesa")
+    L --> M("Selva · Derrumbe, plato y mesa")
     L --> N("Iglesia · Vitrales y derrota del Diablo")
     M -->|Paso abierto| N
     N -->|Fotografía y revelación| O("Desenlace · Sendero y créditos")

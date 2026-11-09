@@ -6,7 +6,7 @@ Iktan despierta en una selva desconocida convencido de que todavía puede regres
 
 ## Sinopsis
 
-Iktan se orienta entre la niebla verde con ayuda de Abbi. Se agacha para atravesar la hierba alta, utiliza troncos como cobertura y lanza piedras para apartar al Nahual de su ruta. En las ruinas atrae a la criatura debajo de un techo dañado y derriba la columna que lo sostiene desde un lateral protegido. Tras el derrumbe aparece una mesa espectral. Al acercarse e interactuar, Iktan presencia un destello de memoria familiar. Cuando termina la escena, los árboles se abren hacia la Iglesia.
+Iktan se orienta entre la niebla verde con ayuda de Abbi. Se agacha para atravesar la hierba alta, utiliza troncos como cobertura y lanza piedras para apartar al Nahual de su ruta. En las ruinas atrae a la criatura debajo de un techo dañado y derriba la columna que lo sostiene desde un lateral protegido. Tras el derrumbe, Iktan recoge un plato de molletes y lo coloca en la mesa espectral. Entonces presencia un destello de memoria familiar. Cuando termina la escena, los árboles se abren hacia la Iglesia.
 
 Al entrar en la nave, Iktan encuentra al Diablo, una sombra que rastrea el recinto con dos haces rojos. Lanza piedras hacia los rincones para desviar su mirada y retira las tablas de tres vitrales. Cuando despeja el último, la luz llena el recinto y desintegra a la sombra.
 
@@ -18,7 +18,7 @@ Tras derrotar al Diablo, el pedestal se transforma en un Altar de Día de Muerto
 | ------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Selva · Desorientación    | Cree que está perdido y busca el camino a casa. Abbi se gana su confianza al señalarle una ruta protegida. | Aprender a observar, agacharse, usar cobertura y lanzar piedras.             |
 | Selva · Ruinas            | Comprende que puede superar a la criatura aprovechando el lugar.                                           | Atraer al Nahual y derribar la columna.                                      |
-| Selva · Recuerdo familiar | Reconoce algo familiar en la mesa, aunque todavía ignora por qué apareció.                                 | Activar la escena y seguir el paso que se abre entre los árboles.            |
+| Selva · Recuerdo familiar | Reconoce algo familiar en la mesa, aunque todavía ignora por qué apareció.                                 | Colocar el plato de molletes en la mesa y seguir el paso que se abre entre los árboles.            |
 | Iglesia · Enfrentamiento | Iktan busca una salida mientras el Diablo vigila la nave. | Desviar los haces con piedras y despejar los tres vitrales. |
 | Iglesia · Revelación | Tras la derrota del Diablo, obtiene su fotografía y comprende que falleció. | Acercarse al altar y tomar la fotografía. |
 | Iglesia · Despedida | Acepta lo ocurrido y avanza hacia el descanso. | Recorrer el sendero de cempasúchil. |
@@ -27,7 +27,7 @@ Tras derrotar al Diablo, el pedestal se transforma en un Altar de Día de Muerto
 
 1. Iktan despierta en la Selva y conoce a Abbi.
 2. El Nahual bloquea el avance hacia las ruinas.
-3. El derrumbe neutraliza al Nahual y aparece la mesa espectral.
+3. El derrumbe neutraliza al Nahual. Iktan obtiene el plato de molletes y aparece la mesa espectral.
 4. El recuerdo familiar abre el paso directo a la Iglesia.
 5. La luz del último vitral disuelve al Diablo.
 6. El pedestal se transforma en altar. Iktan obtiene su fotografía, descubre la verdad y queda habilitado el sendero final.

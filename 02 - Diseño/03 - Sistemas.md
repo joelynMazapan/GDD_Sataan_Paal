@@ -8,7 +8,7 @@
 | Entrada y movimiento  | Desplazar, agachar, correr y orientar cámara  | Geometría y configuración             | En diseño |
 | Percepción e IA      | Visión, audición y respuesta de cada amenaza | Movimiento, coberturas, eventos sonoros | En diseño |
 | Herramientas          | Apuntado, piedras y recarga                    | Entrada, colisiones                     | En diseño |
-| Entorno interactivo   | Columna, mesa, árboles y vitrales             | Objetivos, percepción                  | En diseño |
+| Entorno interactivo   | Columna, plato de molletes, mesa, árboles y vitrales             | Objetivos, percepción                  | En diseño |
 | Guía de Abbi         | Seguimiento y pistas                           | Navegación, objetivos                  | En diseño |
 | Objetivos y narrativa | Secuencia de los dos niveles y revelación     | Entorno, interfaz                       | En diseño |
 | Persistencia          | Puntos de control y restauración              | Objetivos, estado del nivel             | En diseño |

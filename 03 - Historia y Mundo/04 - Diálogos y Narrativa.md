@@ -17,7 +17,7 @@
 | --- | --- | --- | --- |
 | Despertar en la Selva | Iktan encuentra a Abbi cerca de la primera cobertura. | Iktan: «¿Conoces el camino?». Abbi mira hacia un tronco caído y espera. | El jugador recupera el control y decide cuándo avanzar. |
 | Ruinas | Iktan observa el techo dañado y la columna. | Iktan: «Si consigo que se meta ahí…». Abbi dirige la mirada hacia la estructura. | La pista invita a comprobar la trampa. El jugador prepara la distracción y el derrumbe. |
-| Mesa espectral | Iktan se acerca tras neutralizar al Nahual. | Iktan: «Esto se siente como casa». La luz de la mesa cambia y los árboles se abren. | El jugador activa el recuerdo y sigue el camino a la Iglesia. |
+| Mesa espectral | Iktan coloca en la mesa el plato de molletes que obtuvo tras derrotar al Nahual. | Iktan: «Esto se siente como casa». La luz de la mesa cambia y los árboles se abren. | El jugador activa el recuerdo y sigue el camino a la Iglesia. |
 | Vitrales | El Diablo barre la nave con dos haces rojos. | Indicaciones de objetivo: «Abre los vitrales» y «Vitrales: 0/3». | El jugador elige el orden, desvía los haces con piedras y retira las tablas. |
 | Fotografía | Tras la derrota del Diablo, el pedestal se transforma en altar y aparece el retrato. | Iktan toma la fotografía y dice «Soy yo…». Una pausa deja ver su reacción al reconocerla. | La escena confirma que falleció durante su secuestro y devuelve el control para recorrer el sendero final. |
 | Despedida | Iktan y Abbi llegan al sendero iluminado. | Iktan: «Gracias por venir conmigo». Abbi se detiene en el umbral. | El jugador camina hacia la luz. Aparecen el mensaje final y los créditos. |

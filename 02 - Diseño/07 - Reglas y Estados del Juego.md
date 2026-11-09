@@ -32,14 +32,14 @@ La secuencia narrativa puede pausarse. Al reanudar se vuelve a la misma secuenci
 | Jugando                         | Captura válida            | Derrota             | Bloquear interacción y detener amenazas                                 |
 | Derrota                         | Reintentar                 | Carga               | Restaurar último punto coherente                                        |
 | Jugando                         | Columna completada         | Secuencia narrativa | Nahual dentro de la trampa; neutralizar y guardar S3                     |
-| Secuencia de derrumbe           | Fin                        | Jugando             | Hacer aparecer la mesa espectral                                         |
-| Jugando                         | Interactuar con la mesa    | Secuencia narrativa | Al terminar, abrir árboles y guardar S4; las piedras siguen disponibles |
+| Secuencia de derrumbe | Fin | Jugando | Aparecen el plato de molletes y la mesa espectral. |
+| Jugando | Colocar el plato de molletes en la mesa | Secuencia narrativa | Completar el recuerdo, abrir el paso y guardar S4. |
 | Jugando                         | Cruzar acceso a la Iglesia | Carga               | Recuerdo de la mesa completado; destino único: Iglesia                  |
-| Jugando                         | Llegar al altar            | Secuencia narrativa | Transformación del pedestal y fotografía                               |
-| Secuencia de revelación        | Fin                        | Jugando             | Guardar I1 y habilitar acceso al desafío                                |
-| Jugando                         | Entrar en la nave          | Jugando             | Activar barrido del Diablo y contador de vitrales                        |
-| Jugando                         | Confirmar tercer vitral    | Secuencia narrativa | Desactivar amenaza, mostrar luz y guardar I2                             |
-| Secuencia final                 | Fin                        | Desenlace           | Habilitar sendero de cempasúchil                                        |
+| Jugando | Alcanzar el punto previo a la nave | Jugando | Guardar I1 antes de activar el enfrentamiento. |
+| Jugando | Entrar en la nave | Jugando | Activar el barrido y el contador de vitrales. |
+| Jugando | Confirmar tercer vitral | Secuencia narrativa | Derrotar al Diablo, transformar el pedestal en altar y guardar I2 con la fotografía disponible. |
+| Secuencia de derrota del Diablo | Fin | Jugando | Permitir acercarse al altar y tomar la fotografía. | tras la derrota del Diablo | Secuencia narrativa | Activar la revelación. |
+| Secuencia de revelación | Fin | Desenlace | Actualizar I2 y abrir el sendero de cempasúchil. |
 | Desenlace                       | Cruzar salida de luz       | Créditos           | Marcar partida completada                                                |
 
 ## Reglas globales
@@ -76,7 +76,7 @@ La secuencia narrativa puede pausarse. Al reanudar se vuelve a la misma secuenci
 * Es posible terminar ambos niveles sin causar daño mediante proyectiles.
 * Agacharse, cobertura y ruido producen los mismos resultados ante las mismas condiciones.
 * El Nahual puede atraerse a las ruinas y la columna no genera un bloqueo irreversible.
-* La escena de la mesa abre el paso sin requerir objetos; las piedras siguen siendo la única herramienta de distracción.
+* Colocar el plato de molletes en la mesa y completar el recuerdo abre el paso; las piedras siguen siendo la única herramienta de distracción.
 * Cada vitral se puede despejar con una distracción de piedra de 5 s, interacción de 2 s y margen mínimo de 1 s.
 * Cada vitral cuenta una sola vez y el tercero resuelve el enfrentamiento.
 * Reintentar desde cada punto reconstruye correctamente enemigos, objetos y objetivos.

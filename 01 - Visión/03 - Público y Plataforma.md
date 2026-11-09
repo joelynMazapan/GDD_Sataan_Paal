@@ -11,7 +11,7 @@ Saatan Paal está dirigido principalmente a jugadores de entre 13 y 30 años int
 | ELEMENTO                    | DECISIÓN                                              |
 | --------------------------- | ----------------------------------------------------- |
 | **Plataforma principal**    | PC (Windows y macOS).                                 |
-| **Plataformas secundarias** | Navegador web, como versión de demostración prevista. |
+| **Plataformas secundarias** | Navegador web, como demo prevista para itch.io. |
 | **Método de entrada**       | Teclado.                                              |
 | **Resolución objetivo**     | 1920 × 1080 píxeles.                                  |
 | **Relación de aspecto**     | 16:9.                                                 |
@@ -33,7 +33,7 @@ El desarrollo considera las capacidades de procesamiento gráfico y memoria de l
 
 - **Compatibilidad:** Se deberá comprobar el funcionamiento del videojuego en Windows y macOS, considerando las diferencias de hardware y sistemas operativos.
 
-- **Distribución web:** La posible versión de demostración para navegador requerirá ajustes adicionales en los recursos gráficos, tiempos de carga y compatibilidad con los navegadores seleccionados.
+- **Distribución web:** La demo para navegador en itch.io requerirá ajustes adicionales en los recursos gráficos, tiempos de carga y compatibilidad con los navegadores seleccionados.
 
 
 ## 3.4. Sesión de juego
@@ -50,7 +50,7 @@ Prototipo académico gratuito, desarrollado con fines educativos y de demostraci
 
 - **Controles:** Implementar controles intuitivos mediante teclado que permitan ejecutar las acciones de movimiento, sigilo, interacción y lanzamiento de objetos.
 
-- **Cámara:** Mantener una perspectiva isométrica con ajustes dinámicos que permitan visualizar al personaje, los enemigos y los elementos relevantes del entorno sin dificultar la navegación.
+- **Cámara:** Mantener una cámara en tercera persona con Cinemachine y ajustes dinámicos que permitan visualizar al personaje, los enemigos y los elementos relevantes del entorno sin dificultar la navegación.
 
 - **Interfaz:** Presentar indicaciones, controles e información visual de manera clara, facilitando la comprensión de las mecánicas y los objetivos de cada escenario.
 

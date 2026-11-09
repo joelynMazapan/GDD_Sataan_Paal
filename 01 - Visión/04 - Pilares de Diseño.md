@@ -7,7 +7,7 @@ El jugador debe evitar ser detectado por los enemigos mediante la observación d
 
 ## Pilar 2 — Exploración y aprovechamiento del entorno
 
-Los escenarios presentan obstáculos, elementos interactivos y objetos que permiten resolver situaciones de peligro. Las piedras y otros recursos disponibles pueden utilizarse para generar distracciones, modificar el comportamiento de los enemigos y facilitar el avance. La exploración permite encontrar elementos relacionados con el desarrollo de la historia.
+Los escenarios presentan obstáculos, elementos interactivos y objetos que permiten resolver situaciones de peligro. Las piedras son la única herramienta para generar distracciones y se pueden utilizar para modificar el comportamiento de los enemigos y facilitar el avance. La exploración permite encontrar elementos relacionados con el desarrollo de la historia.
 
 
 ## Pilar 3 — Narrativa que genera reflexión

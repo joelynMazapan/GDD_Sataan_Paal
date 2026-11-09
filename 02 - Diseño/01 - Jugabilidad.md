@@ -4,9 +4,9 @@
 
 **Observar → identificar cobertura y salida → distraer → desplazarse sin ser visto → manipular el entorno → comprobar el resultado → avanzar.**
 
-En la Selva, este ciclo culmina al atraer al Nahual bajo el techo de las ruinas y derribar una columna. La recompensa es la apertura del camino y una pausa narrativa: tras el derrumbe aparece una mesa espectral, inicio del altar de muertos. Iktan se acerca e interactúa para observar una breve manifestación del recuerdo familiar; al terminar, los árboles se abren hacia la Iglesia. Esta escena no requiere recoger ni depositar objetos y no concede una herramienta nueva.
+En la Selva, Iktan atrae al Nahual bajo el techo de las ruinas y derriba la columna. Tras derrotarlo recoge un plato de molletes y lo coloca en la mesa espectral. El recuerdo familiar abre el camino hacia la Iglesia.
 
-En la Iglesia, el altar revela el destino de Iktan. El jugador combina piedras y cobertura para retirar las tablas de tres vitrales. Al despejar el último, la luz desintegra al Diablo y con la obtención de su propia foto, permite alcanzar el sendero de cempasúchil.
+En la Iglesia, Iktan combina piedras y cobertura para retirar las tablas de tres vitrales. La luz del último derrota al Diablo. Después, el pedestal se transforma en altar e Iktan obtiene su fotografía, descubre la verdad y puede recorrer el sendero de cempasúchil.
 
 ## Acciones principales del jugador
 
@@ -17,7 +17,6 @@ En la Iglesia, el altar revela el destino de Iktan. El jugador combina piedras y
 | Agacharse               | Reducir silueta y ruido                                         | Movimiento lento; la cobertura sigue siendo necesaria                                                     |
 | Correr                  | Cruzar una abertura.                                            | Mayor velocidad y ruido; sin invulnerabilidad                                                             |
 | Lanzar piedras          | Leer rutas, obstáculos y haces de luz                          | Permite planificar sin desplazar a Iktan                                                                  |
-| Interactuar con Abbi    | Reducir el medidor de miedo.                                    | Restaura la cordura del jugador, disipando la niebla oscura de la pantalla para recuperar la visibilidad. |
 | Esconderse              | Evita ser descubierto por los enemigos por medio del escondite. | Permite esconderse con cosas del entorno para no ser descubierto por los enemigos y asi pasar de nivel    |
 | Seguir indicios de Abbi | Reconocer peligro u objetivos                                   | Ayuda contextual sin resolver el desafío                                                                 |
 
@@ -31,11 +30,11 @@ Cada tramo presenta una ruta breve con varias posiciones de cobertura. El jugado
 
 ## Experiencia a largo plazo
 
-El aprendizaje pasa de ocultarse y lanzar piedras a coordinar posición enemiga, duración del señuelo e interacción con el entorno. La motivación narrativa cambia de buscar una salida a comprender el altar y acompañar a Iktan hacia el descanso. La revelación ocurre al entrar en la Iglesia, antes del enfrentamiento final.
+El aprendizaje pasa de ocultarse y lanzar piedras a coordinar posición enemiga, duración del señuelo e interacción con el entorno. La motivación narrativa cambia de buscar una salida a comprender el altar y acompañar a Iktan hacia el descanso. La revelación ocurre después de derrotar al Diablo, al tomar la fotografía del altar.
 
 ## Condición de victoria
 
-* **Selva:** neutralizar al Nahual con el derrumbe, completar la escena de la mesa espectral y cruzar el paso abierto.
+* **Selva:** neutralizar al Nahual con el derrumbe, recoger el plato de molletes, colocarlo en la mesa espectral y cruzar el paso abierto.
 * **Iglesia:** despejar los tres vitrales, presenciar la disolución del Diablo y recorrer el sendero final.
 * **Partida:** terminar la despedida y mostrar el mensaje social y los créditos.
 
@@ -53,7 +52,7 @@ Describe cómo alternan:
 | Inicio de la Selva    | Aprender movimiento, cobertura y piedras con Abbi |
 | Acecho y ruinas       | Encadenar rutas de sigilo y preparar el derrumbe  |
 | Mesa y transición    | Alivio, recuerdo familiar y camino directo        |
-| Entrada en la Iglesia | Revelación y lectura del espacio                 |
+| Entrada en la Iglesia | Lectura del espacio y preparación del enfrentamiento                 |
 | Vitrales              | Coordinar señuelos y haces de luz                |
 | Despedida             | Sendero, mensaje y créditos                      |
 

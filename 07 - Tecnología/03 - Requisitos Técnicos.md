@@ -6,7 +6,7 @@ Define las condiciones técnicas necesarias para ejecutar y desarrollar el video
 
 ## Requisitos mínimos
 
-Plataforma objetivo propuesta: PC con teclado y ratón. Las especificaciones deben confirmarse con una compilación de los dos niveles.
+Plataformas objetivo: Windows y macOS con teclado y ratón, y demo web en itch.io. Las referencias de hardware de esta nota corresponden a Windows. Los requisitos de macOS y navegador quedan pendientes de validar con sus compilaciones. Las especificaciones deben confirmarse con una compilación de los dos niveles.
 
 **Sistema operativo:** Windows de 64 bits. Versión mínima por validar.
 

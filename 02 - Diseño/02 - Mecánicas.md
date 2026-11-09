@@ -50,7 +50,7 @@ Las piedras son ilimitadas, no requieren recolección y no causan daño ni aturd
 
 **Activación y entrada:** atraer al Nahual bajo el techo marcado por grietas; acercarse al lateral accesible de la columna y mantener E durante 2 s.
 
-**Estado inicial:** columna intacta y Nahual dentro del volumen de la trampa. **Estado final:** derrumbe completado, Nahual neutralizado y mesa espectral disponible.
+**Estado inicial:** columna intacta y Nahual dentro del volumen de la trampa. **Estado final:** derrumbe completado, Nahual neutralizado, plato de molletes disponible y mesa espectral visible.
 
 **Reglas:** la posición de interacción está fuera de la zona del derrumbe. El juego muestra «Derribar columna» solo al cumplir las condiciones. Durante los 2 s de preparación se puede cancelar soltando E o moviéndose. Al completarse se vuelve a verificar la presencia del Nahual; si salió del volumen, la columna sigue intacta y se indica «Atrae al Nahual bajo las ruinas». Una activación válida compromete la secuencia y neutraliza la amenaza antes de reproducir la caída.
 
@@ -64,15 +64,15 @@ Las piedras son ilimitadas, no requieren recolección y no causan daño ni aturd
 
 **Propósito:** enlazar la resolución de la Selva con el altar de la Iglesia sin añadir recursos ni herramientas.
 
-**Activación y entrada:** tras el derrumbe aparece la mesa espectral; pulsar E a menos de 1,5 m inicia una breve escena de memoria familiar.
+**Activación y entrada:** tras el derrumbe, pulsar E para recoger el plato de molletes. Acercarse a la mesa espectral y pulsar E a menos de 1,5 m para colocar el plato y activar el recuerdo familiar.
 
-**Estado inicial:** Nahual neutralizado y mesa disponible. **Estado final:** escena completada, árboles abiertos y punto S4 guardado.
+**Estado inicial:** Nahual neutralizado, plato recogido y mesa disponible. **Estado final:** escena completada, árboles abiertos y punto S4 guardado.
 
-**Reglas:** no se recoge ni deposita ningún objeto. La mesa aparece en el escenario actual y no teletransporta a Iktan. Al terminar la escena se devuelve el control para caminar directamente a la Iglesia. Las piedras conservan exactamente las mismas propiedades.
+**Reglas:** el plato se recoge una vez y se coloca en la mesa. Funciona como objeto narrativo. La mesa aparece en el escenario actual y no teletransporta a Iktan. Al terminar la escena se devuelve el control para caminar directamente a la Iglesia. Las piedras conservan exactamente las mismas propiedades.
 
-**Recursos:** ninguno. **Recompensa:** avance narrativo y apertura del camino. **Penalización:** ninguna, pues la amenaza de la Selva ya está neutralizada.
+**Recursos:** plato de molletes. **Recompensa:** avance narrativo y apertura del camino. **Penalización:** ninguna, pues la amenaza de la Selva ya está neutralizada.
 
-**Interacciones y casos límite:** el paso permanece cerrado hasta completar la escena. Reinteractuar no duplica eventos. El guardado distingue mesa disponible y recuerdo completado; una interrupción restaura el último hito consolidado.
+**Interacciones y casos límite:** el paso permanece cerrado hasta completar la escena. Reinteractuar no duplica eventos. El guardado distingue el plato disponible en S3 y el recuerdo completado en S4; una interrupción restaura el último hito consolidado.
 
 ### 05. Retirar las tablas de los vitrales
 

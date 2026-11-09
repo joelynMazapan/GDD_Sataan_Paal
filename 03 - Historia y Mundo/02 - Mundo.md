@@ -16,7 +16,7 @@ Iktan es víctima de un secuestro y fallece durante el cautiverio. Su familia co
 
 ### Durante el juego
 
-El espacio responde a hitos concretos. Tras el derrumbe aparece la mesa espectral. Al terminar la escena de recuerdo se abre el camino entre los árboles. En la Iglesia, la luz del último vitral despejado disuelve al Diablo. Entonces el pedestal se transforma en altar. Al obtener su fotografía, Iktan comprende lo ocurrido y puede seguir por el sendero final.
+El espacio responde a hitos concretos. Tras el derrumbe aparecen el plato de molletes y la mesa espectral. Iktan coloca el plato para iniciar el recuerdo familiar. Al terminar la escena de recuerdo se abre el camino entre los árboles. En la Iglesia, la luz del último vitral despejado disuelve al Diablo. Entonces el pedestal se transforma en altar. Al obtener su fotografía, Iktan comprende lo ocurrido y puede seguir por el sendero final.
 
 ### Después del juego
 

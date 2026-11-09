@@ -55,9 +55,33 @@
 
 **Restricciones:** Solo puede derribarse si el Nahual permanece dentro de la zona de la trampa al completar la interacción. No puede transportarse, activarse mediante un impacto de piedra ni utilizarse nuevamente.
 
-**Interacciones:** Su caída neutraliza al Nahual, permite la aparición de la mesa espectral y registra el punto de control correspondiente.
+**Interacciones:** Su caída neutraliza al Nahual, permite la aparición del plato de molletes y la mesa espectral, y registra el punto de control correspondiente.
 
 **Representación visual:** Piedra erosionada, grietas visibles, inclinación leve y fragmentos desprendidos. La zona de interacción debe distinguirse sin depender únicamente del color.
+
+### Plato de molletes
+
+**Tipo:** Objeto de misión recogible.
+
+**Descripción:** Plato asociado a un recuerdo familiar de Iktan.
+
+**Función:** Activar el recuerdo de la mesa espectral y abrir el paso a la Iglesia.
+
+**Cómo se obtiene:** Aparece tras derrotar al Nahual en las ruinas. Se recoge con la acción de interacción.
+
+**Cómo se utiliza:** Se coloca en la mesa espectral con la acción de interacción.
+
+**Cantidad máxima:** Uno.
+
+**Valor:** Narrativo y de progresión.
+
+**Rareza:** Único.
+
+**Restricciones:** Solo se obtiene tras el derrumbe válido. Se registra como hito de misión.
+
+**Interacciones:** S3 restaura el plato disponible. S4 conserva el recuerdo completado.
+
+**Representación visual:** Plato de molletes con silueta reconocible dentro del estilo Voxel Art 3D.
 
 ### Mesa espectral
 
@@ -69,7 +93,7 @@
 
 **Cómo se obtiene:** Aparece automáticamente después de neutralizar al Nahual.
 
-**Cómo se utiliza:** Acercarse y pulsar el botón de interacción para observar una breve manifestación del recuerdo familiar.
+**Cómo se utiliza:** Acercarse con el plato de molletes y pulsar interacción para colocarlo y activar el recuerdo familiar.
 
 **Cantidad máxima:** Una.
 
@@ -77,7 +101,7 @@
 
 **Rareza:** Único.
 
-**Restricciones:** No se recoge ni requiere depositar objetos. Su interacción no desbloquea herramientas ni modifica las propiedades de las piedras.
+**Restricciones:** La mesa permanece en el escenario. Para activar el recuerdo se requiere el plato de molletes. Su interacción no desbloquea herramientas ni modifica las propiedades de las piedras.
 
 **Interacciones:** Al terminar la escena, los árboles se abren y se guarda el avance. Abbi puede orientar al jugador hacia la mesa si no identifica el objetivo.
 

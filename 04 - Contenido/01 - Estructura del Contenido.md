@@ -10,7 +10,7 @@ Saatan Paal
 │   ├── Sendero de la hierba alta
 │   ├── El claro
 │   ├── Las ruinas — Jefe: el Nahual
-│   └── Recompensa: mesa espectral → recuerdo familiar y apertura del paso
+│   └── Recompensa: plato de molletes → mesa espectral y recuerdo familiar → paso abierto
 ├── Capítulo 2 — La Iglesia
 │   ├── Ascenso
 │   ├── El atrio y la bruma roja
@@ -46,8 +46,8 @@ Saatan Paal
 | -------------------------------- | ------------------------------------------------------------------------------------ |
 | **Capítulo 1 — Sendero**       | Completar el tutorial del despertar. Las piedras están disponibles desde el inicio. |
 | **Enfrentamiento con el nahual** | Llegar a las ruinas.                                                                 |
-| **Mesa espectral**               | Neutralizar al Nahual con el derrumbe.                                               |
-| **Capítulo 2 — La iglesia**    | Completar el recuerdo de la mesa espectral.                                          |
+| **Plato de molletes y mesa espectral** | Derrotar al Nahual con el derrumbe. |
+| **Capítulo 2 — La iglesia**    | Colocar el plato en la mesa espectral y completar el recuerdo.                                          |
 | **Revelación en el altar**      | Derrotar al Diablo y obtener la fotografía.                                         |
 | **Enfrentamiento con el diablo** | Cruzar el atrio y entrar en la nave.                                                 |
 | **Fotografía de Iktan**         | Derrotar al Diablo. El pedestal se transforma en altar y aparece la fotografía.     |

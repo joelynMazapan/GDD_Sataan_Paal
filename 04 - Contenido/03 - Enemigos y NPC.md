@@ -14,7 +14,7 @@ Las dos amenazas se resuelven mediante el escenario. Los valores de percepción 
 | Detección | Visión propuesta de 12 m y 80°, con 0,8 s de visión continua para confirmar. El impacto de una piedra se oye dentro de 8 m. |
 | Ataque | Persigue y captura por contacto. Si pierde de vista a Iktan durante 2 s, busca durante 5 s en la última posición conocida. |
 | Debilidad | La cobertura y la hierba alta con Iktan agachado dificultan que lo vea. Puede atraerse bajo el techo dañado para confirmar la trampa. |
-| Recompensa | La derrota habilita la mesa espectral. |
+| Recompensa | La derrota hace aparecer el plato de molletes y la mesa espectral. |
 
 **Estados de IA.** Acecho → sospecha → persecución → búsqueda → acecho. Un impacto audible inicia investigación cuando la prioridad de percepción lo permite. Tras llegar al impacto investiga durante 5 segundos. El derrumbe válido cambia su estado a neutralizado.
 

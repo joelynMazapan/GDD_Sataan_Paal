@@ -15,7 +15,7 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 | Correr                            | Mantener Mayús izquierdo           | Click izquierdo        | No Aplica | No Aplica |
 | <br>Apuntar                       | Mantener botón derecho             | No aplica              | No Aplica | No Aplica |
 | Lanzar                            | Botón izquierdo mientras se apunta | No aplica              | No Aplica | No Aplica |
-| Mesa espectral / avanzar diálogo | E                                   | No aplica              | No aplica | No Aplica |
+| Recoger plato o fotografía / colocar plato / avanzar diálogo | E                                   | No aplica              | No aplica | No Aplica |
 | Derribar columna / retirar tablas | Mantener E durante 2 s              | No aplica              | No aplica | No aplica |
 | Pausa / volver                    | Esc                                 | No aplica              | No aplica | No aplica |
 | Confirmar menú                   | Enter o botón izquierdo            | No aplica              | No aplica | No aplica |

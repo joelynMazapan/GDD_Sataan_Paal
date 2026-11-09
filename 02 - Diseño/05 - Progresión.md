@@ -8,10 +8,10 @@
 | Inicio en la Selva   | Árboles colosales, humedad y niebla verde     | Aprender movimiento y reconocer a Abbi             | Iktan busca una salida sin comprender el lugar                                        |
 | Primer acecho        | Hierba alta y troncos caídos                  | Ocultarse y distraer con piedras                   | El Nahual expresa una amenaza ligada a su cautiverio                                  |
 | Ruinas               | Techo dañado y columna inestable              | Atraer al Nahual y derribar la columna             | Iktan supera el primer obstáculo espiritual                                          |
-| Recuerdo familiar    | Mesa espectral tras el derrumbe                | Interactuar y completar la escena                  | La memoria familiar abre el camino                                                    |
+| Recuerdo familiar | Plato de molletes y mesa espectral tras el derrumbe | Recoger y colocar el plato | La memoria familiar abre el camino |
 | Camino a la iglesia  | Árboles abiertos y bruma roja                 | Avanzar directamente al atrio                      | Abbi acompaña el cambio de tono                                                      |
-| Revelación          | Pedestal que se transforma en un altar gigante | Observar fotografía y recuperar el control        | Iktan comprende que murió durante el secuestro; el altar representa el amor familiar |
 | Enfrentamiento final | Nave oscura con dos haces rojos                | Despejar tres vitrales mediante sigilo y señuelos | El Diablo representa la última barrera de sus captores                               |
+| Revelación | Altar disponible tras derrotar al Diablo | Tomar la fotografía y completar la revelación | Iktan comprende que falleció durante el secuestro |
 | Despedida            | Luz y sendero de cempasúchil                  | Caminar hacia la salida final                      | Iktan alcanza el descanso; mensaje social y créditos                                 |
 
 El trayecto y las secuencias de altar pertenecen a los dos niveles; no constituyen niveles adicionales.
@@ -38,10 +38,10 @@ Los monstruos se presentan como representaciones de los captores en la experienc
 
 | Desbloqueo           | Requisito                                            | Efecto                                                                                                                     |
 | -------------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Molletes             | Superar el calabozo y derrotar al Guardia.           | Aparece el 1er piso del Altar de Muertos espectral. El jugador comprende que los objetos tienen un peso emocional.         |
-| Trompos de mandera   | Superar la selva hostil y derrotar al Nahual.        | Se crea el 2do piso del Altar, decorado con papel picado. Aumenta la intriga del jugador sobre el origen de los objetos.   |
-| Costal de mandarinas | Evadir la Ciudad Abandonada y sobrevivir a la horda. | Se crea el 3er piso del Altar, iluminado con veladoras. Prepara emocionalmente al jugador para el clímax.                 |
-| Fotografía y flores | Llegar al atrio de la Iglesia .                      | Revela la historia real del secuestro y la muerte de Iktan. Desbloquea la puerta al jefe final y cambia el tono del juego. |
+| Plato de molletes | Derrotar al Nahual con el derrumbe. | Puede recogerse y colocarse en la mesa espectral. |
+| Paso a la Iglesia | Colocar el plato y completar el recuerdo. | Los árboles se abren. |
+| Altar y fotografía | Derrotar al Diablo tras despejar los tres vitrales. | El pedestal se transforma en altar. |
+| Sendero final | Tomar la fotografía y completar la revelación. | Iktan puede caminar hacia la luz. |
 
 ## Curva de dificultad
 
