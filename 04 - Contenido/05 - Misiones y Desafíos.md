@@ -94,38 +94,7 @@
 
 **Nivel relacionado:** Nivel 1: La Selva Hostil; transición directa al nivel 2.
 
-### 04. Reconocer la fotografía
-
-**Tipo:** Principal.
-
-**Objetivo:** Aproximarse al pedestal y descubrir la verdad del altar.
-
-**Contexto:** Iktan entra en una iglesia inmensa. El pedestal se transforma en un Altar de Día de Muertos que contiene su propia fotografía.
-
-**Requisitos:** Haber completado la transición desde la Selva.
-
-**Pasos:**
-
-1. Recorrer el atrio y entrar en la Iglesia.
-2. Aproximarse al pedestal.
-3. Presenciar su transformación.
-4. Reconocer la fotografía de Iktan.
-5. Observar su reacción y el acompañamiento de Abbi.
-6. Recuperar el control antes de acceder a la nave del enfrentamiento.
-
-**Condición de éxito:** Completar la secuencia de revelación.
-
-**Condición de fracaso:** No existe fracaso jugable durante la secuencia. Interrumpirla antes del guardado obliga a retomarla desde el último punto consolidado.
-
-**Recompensa:** Comprensión del destino de Iktan y guardado en I1.
-
-**Consecuencias:** Iktan comprende que murió durante el secuestro. El altar representa el amor familiar que ilumina su camino; las amenazas adquieren sentido como representaciones de sus captores.
-
-**Personajes relacionados:** Iktan y Abbi.
-
-**Nivel relacionado:** Nivel 2: La Iglesia.
-
-### 05. Dejar entrar la luz
+### 04. Dejar entrar la luz
 
 **Tipo:** Principal.
 
@@ -133,7 +102,7 @@
 
 **Contexto:** El Diablo domina la nave mediante dos haces rojos. Si uno toca a Iktan sin una cobertura interpuesta, su alma queda atrapada.
 
-**Requisitos:** Completar la revelación y entrar en la zona del enfrentamiento.
+**Requisitos:** Entrar en la nave desde el atrio. I1 se registra antes de iniciar el enfrentamiento.
 
 **Pasos:**
 
@@ -150,15 +119,44 @@
 
 **Condición de fracaso:** Entrar en contacto con un haz sin protección o alcanzar una zona letal. La derrota restaura I1 con los tres vitrales cubiertos.
 
-**Recompensa:** Disolución de la amenaza, guardado en I2 y acceso al sendero final.
+**Recompensa:** Disolución de la amenaza, guardado en I2 y acceso al altar y la fotografía.
 
-**Consecuencias:** La Iglesia abandona su oscuridad y el recorrido hacia el descanso queda abierto.
+**Consecuencias:** El pedestal se transforma en altar e Iktan puede tomar su fotografía.
 
 **Personajes relacionados:** Iktan, Abbi y el Diablo.
 
 **Nivel relacionado:** Nivel 2: La Iglesia.
 
 **Condición de diseño del desafío:** La atención provocada por una piedra dura 5 segundos después del giro. La distribución del escenario debe permitir desplazarse, interactuar durante 2 segundos y regresar a cobertura en un máximo de 4 segundos, dejando al menos 1 segundo de margen. El tiempo de giro no se considera una fase segura: los haces siguen activos mientras se desplazan.
+
+### 05. Reconocer la fotografía
+
+**Tipo:** Principal.
+
+**Objetivo:** Tomar la fotografía del altar y descubrir la verdad.
+
+**Contexto:** Tras la derrota del Diablo, la luz inunda la iglesia. El pedestal se transforma en un Altar de Día de Muertos que contiene su propia fotografía.
+
+**Requisitos:** Haber despejado los tres vitrales y derrotado al Diablo.
+
+**Pasos:**
+
+1. Acercarse al altar tras la transformación del pedestal.
+2. Interactuar para tomar la fotografía de Iktan.
+3. Reconocer el retrato y observar la revelación.
+4. Recuperar el control antes de recorrer el sendero final.
+
+**Condición de éxito:** Obtener la fotografía y completar la secuencia de revelación.
+
+**Condición de fracaso:** No existe fracaso jugable durante la secuencia. Interrumpirla antes del guardado obliga a retomarla desde el último punto consolidado.
+
+**Recompensa:** Comprensión del destino de Iktan, apertura del sendero y actualización de I2.
+
+**Consecuencias:** Iktan comprende que murió durante el secuestro. El altar representa el amor familiar que ilumina su camino; las amenazas adquieren sentido como representaciones de sus captores.
+
+**Personajes relacionados:** Iktan y Abbi.
+
+**Nivel relacionado:** Nivel 2: La Iglesia.
 
 ### 06. Caminar hacia el descanso
 
@@ -168,7 +166,7 @@
 
 **Contexto:** La amenaza ha desaparecido. Iktan puede concluir su viaje acompañado por Abbi.
 
-**Requisitos:** Haber despejado los tres vitrales.
+**Requisitos:** Haber obtenido la fotografía y completado la revelación.
 
 **Pasos:**
 

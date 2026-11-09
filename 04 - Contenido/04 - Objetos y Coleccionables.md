@@ -117,9 +117,9 @@
 
 **Función:** Presentar la revelación central y transformar el significado del recorrido.
 
-**Cómo se obtiene:** Se descubre al entrar en la Iglesia y aproximarse al pedestal.
+**Cómo se obtiene:** El pedestal se transforma en altar tras la derrota del Diablo.
 
-**Cómo se utiliza:** Se observa durante la secuencia narrativa y después como parte del entorno.
+**Cómo se utiliza:** Iktan se acerca para tomar su fotografía y activar la revelación.
 
 **Cantidad máxima:** Uno.
 
@@ -129,21 +129,21 @@
 
 **Restricciones:** No puede recogerse, modificarse ni utilizarse como fuente de recursos. Su contenido no depende de completar colecciones.
 
-**Interacciones:** Activa la revelación de la fotografía y precede al enfrentamiento final.
+**Interacciones:** Aloja la fotografía. Tomarla activa la revelación y habilita el sendero final al concluir la escena.
 
 **Representación visual:** Estructura de gran escala con velas, flores de cempasúchil y elementos de ofrenda integrados en la escenografía. La composición dirige la mirada hacia la fotografía.
 
 ### Fotografía de Iktan
 
-**Tipo:** Elemento narrativo descubrible.
+**Tipo:** Objeto de misión recogible.
 
 **Descripción:** Fotografía del protagonista situada en lo alto del altar.
 
 **Función:** Revelar que Iktan falleció durante su secuestro y que el recorrido representa el viaje de su alma.
 
-**Cómo se obtiene:** Se descubre durante la transformación del pedestal en altar.
+**Cómo se obtiene:** Aparece en el altar después de derrotar al Diablo. Iktan la toma con la acción de interacción.
 
-**Cómo se utiliza:** Se contempla en una secuencia de cámara que permite reconocer claramente al protagonista.
+**Cómo se utiliza:** Al tomarla se inicia la secuencia de reconocimiento. El juego registra el hito de la fotografía.
 
 **Cantidad máxima:** Una.
 
@@ -151,7 +151,7 @@
 
 **Rareza:** Único.
 
-**Restricciones:** No se recoge ni se incorpora al inventario. No debe mostrarse de forma reconocible antes de la revelación.
+**Restricciones:** Disponible una vez tras la derrota del Diablo. Se registra como hito narrativo.
 
 **Interacciones:** Cambia la comprensión de Iktan y del jugador sobre el mundo, los monstruos y el acompañamiento de Abbi.
 
@@ -161,11 +161,11 @@
 
 **Tipo:** Elemento ambiental de orientación.
 
-**Descripción:** Camino de flores y pétalos que aparece al concluir el enfrentamiento de la Iglesia.
+**Descripción:** Camino de flores y pétalos que se abre después de la revelación de la fotografía.
 
 **Función:** Guiar al jugador hacia la luz y cerrar el recorrido espiritual.
 
-**Cómo se obtiene:** Queda accesible después de despejar los tres vitrales.
+**Cómo se obtiene:** Queda accesible al completar la revelación tras tomar la fotografía.
 
 **Cómo se utiliza:** Se recorre caminando hasta el punto final.
 
