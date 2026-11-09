@@ -20,7 +20,7 @@
 
 **Colores principales:** Verde musgo, tierra húmeda y gris piedra en la Selva. Gris oscuro y rojo apagado en la Iglesia.
 
-**Colores secundarios:** Marfil y paja para Iktan, morado oscuro y blanco hueso para Ohuatl, y naranja cempasúchil y dorado cálido para el desenlace.
+**Colores secundarios:** Marfil y paja para Iktan, morado oscuro y blanco hueso para Abbi, y naranja cempasúchil y dorado cálido para el desenlace.
 
 **Colores para información jugable:** Rojo intenso y contorno visible para los haces. Marfil para indicaciones de interacción. Los cambios de estado se distinguen también por forma, texto o movimiento.
 

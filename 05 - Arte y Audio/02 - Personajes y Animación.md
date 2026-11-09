@@ -13,7 +13,7 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 | El Nahual | Sombra animal de proporciones irregulares con rasgos de jaguar y lobo.                                                         | Acechar, investigar, perseguir, buscar y reaccionar al derrumbe.   | Polvo y fragmentos de piedra durante el derrumbe.          | Adaptación visual al encuentro de la Selva.   |
 | El Diablo | Sombra alta sin rostro definido. La Figura Maliciosa sirve de referencia para proporciones alargadas, garras y acentos rojos.  | Barrer, orientar la mirada hacia un impacto y disolverse.          | Dos haces rojos y disolución al despejar el último vitral. | Adaptación visual al encuentro de la Iglesia. |
 
-Ohuatl corresponde al acompañante documentado como Abbi en [[03 - Personajes]]. Leroy es una referencia visual para las amenazas de los dos niveles.
+Leroy es una referencia visual para las amenazas de los dos niveles.
 
 ## Animaciones
 
@@ -42,7 +42,7 @@ El Nahual queda oculto por el derrumbe. El Diablo se disuelve al entrar la luz d
 
 ## Convenciones
 
-- Modelar en Blender y exportar los modelos con pivotes y escalas coherentes. Usar nombres descriptivos, como `CHR_Iktan`, `CHR_Ohuatl` y `CHR_Nahual`.
+- Modelar en Blender y exportar los modelos con pivotes y escalas coherentes. Usar nombres descriptivos, como `CHR_Iktan`, `CHR_Abbi` y `CHR_Nahual`.
 - Separar cabeza, torso y extremidades en articulaciones adecuadas al movimiento por bloques. Usar `VoxelWalkAnimator` o el componente equivalente para el balanceo procedimental.
 - Comprobar que los pies acompañen el desplazamiento, que el cambio de postura sea suave y que la cámara conserve la lectura de la cobertura.
 
