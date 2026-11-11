@@ -1,28 +1,14 @@
 # Criterios de Aceptación
 
-## Descripción de la sección
-
-Los criterios de aceptación permiten decidir objetivamente si una característica está lista.
-
-## Plantilla
-
-### Característica
-
-**Dado que:** <!-- contexto inicial -->
-
-**Cuando:** <!-- acción -->
-
-**Entonces:** <!-- resultado esperado -->
-
-## Criterios del proyecto
-
-- [ ] El bucle principal funciona.
-- [ ] Las condiciones de victoria y derrota funcionan.
-- [ ] El progreso puede guardarse.
-- [ ] Los sistemas principales están integrados.
-- [ ] Las pruebas críticas están aprobadas.
-- [ ] El rendimiento cumple el objetivo definido.
-- [ ] No existen errores bloqueantes conocidos.
-
-
+| **Parte**                             | **Comportamiento esperado**                                                                                                                                                                                             |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Inicio y menú principal**           | Menú inicial 3D con opciones de `Nueva Partida`, `Cargar Partida` y `Configuración`. Permite guardar y sincronizar el progreso de niveles completados.                                                                  |
+| **Movimiento y sigilo de Iktan**      | Entradas de movimiento fluido para Iktan con velocidad normalizada. Permite agacharse u ocultarse tras coberturas naturales (arbustos, rocas) para reducir el radio de detección visual y sonora.                       |
+| **Mecánica de distracción (Piedras)** | Al presionar el botón de lanzar piedra, se genera un proyectil con trayectoria visible que al colisionar emite un evento de sonido, desviando la atención e investigación de los enemigos hacia el punto de impacto.    |
+| **Compañera de apoyo (Abbi)**         | El espíritu de la perrita Abbi acompaña y guía a Iktan a lo largo del recorrido entre las lápidas y escenarios del juego.                                                                                               |
+| **Enemigo Selva (El Nahual)**         | Sistema de IA con patrullaje por puntos de control (`Waypoints`), estados de alerta (Normal, Sospecha, Persecución). Pierde el rastro de Iktan si este se oculta en cobertura fuera de su cono de visión durante `3 s`. |
+| **Enemigo Final (El Diablo)**         | Patrones de ataque indirecto en la iglesia. La fase de enfrentamiento no utiliza combate directo; solo se habilita el daño al jefe al activar eventos del entorno (derrumbe de ruinas y luz de vitrales).               |
+| **Objetos de ofrenda y Altar**        | Recogida de objetos clave (plato de molletes y fotografía de Iktan) tras superar a los jefes. Al colocarlos en el altar de Día de Muertos se activa la cinemática o transición de victoria del nivel.                   |
+| **Reinicio y Checkpoints**            | Si Iktan es alcanzado por un enemigo o la bruma consuma su salud, el controlador reinicia la partida desde el último punto de control activo sin corrupción de estado.                                                  |
+| **Interfaz y rendimiento**            | HUD limpio de sigilo con indicador de alerta/detección, soporte visual dinámico de cámara isométrica 3D en Unity 6 y tasa de refresco estable $\ge 60 \text{ FPS}$ sin fallos bloqueantes.                              |
 > **Navegación:** [[00 - Índice]] · ← [[03 - Bugs y Seguimiento]] · [[01 - Glosario]] →
