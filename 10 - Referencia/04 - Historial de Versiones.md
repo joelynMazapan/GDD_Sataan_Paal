@@ -1,15 +1,13 @@
 # Historial de Versiones
 
-## Descripción de la sección
-
 Registra los cambios importantes realizados al GDD. Esto permite conocer cómo evolucionó el diseño y cuándo se modificó una decisión.
 
 ## Formato
 
-| Versión | Fecha | Cambios principales | Responsable |
-|---|---|---|---|
-| 0.1.0 | | Creación del documento | |
-| | | | |
+| Versión | Fecha      | Cambios principales    | Responsable    |
+| ------- | ---------- | ---------------------- | -------------- |
+| 0.1.0   | 07-10-2026 | Creación del documento | Todo el equipo |
+| 1.0     | 10-11-2026 | Finalización           | Todo el equipo |
 
 ## Convención sugerida
 

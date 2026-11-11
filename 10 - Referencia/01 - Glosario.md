@@ -1,17 +1,15 @@
 # Glosario
 
-## Descripción de la sección
-
 Centraliza términos técnicos, de diseño y propios del universo del videojuego.
 
-| Término | Definición |
-|---|---|
-| GDD | Documento de Diseño de Videojuego. |
-| Mecánica | Regla o interacción mediante la cual el jugador puede actuar. |
-| Sistema | Conjunto de componentes y reglas que trabajan juntos. |
-| MVP | Producto Mínimo Viable. |
-| Vertical Slice | Muestra pequeña pero representativa del producto final. |
-| | |
+| Término        | Definición                                                    |
+| -------------- | ------------------------------------------------------------- |
+| GDD            | Documento de Diseño de Videojuego.                            |
+| Mecánica       | Regla o interacción mediante la cual el jugador puede actuar. |
+| Sistema        | Conjunto de componentes y reglas que trabajan juntos.         |
+| MVP            | Producto Mínimo Viable.                                       |
+| Vertical Slice | Muestra pequeña pero representativa del producto final.       |
+|                |                                                               |
 
 ## Convenciones de nombres
 
