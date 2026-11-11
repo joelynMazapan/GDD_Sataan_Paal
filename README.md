@@ -11,13 +11,14 @@ El jugador observa a los enemigos, se desplaza entre coberturas y lanza piedras 
 
 ## Proyecto y tecnología
 
-| Aspecto | Detalle |
-| --- | --- |
-| Estado documentado | Preproducción. Prototipo pendiente de validar. |
-| Plataformas previstas | Windows, macOS y demo web en itch.io. |
-| Motor | Unity 6 (6000.6.0f1), con URP 17.6.0. |
-| Controles y cámara | Teclado y ratón con Input System 1.20.1. Cámara en tercera persona con Cinemachine 6.6.0. |
-| Producción | C# para sistemas de juego, Blender para Voxel Art 3D y FL Studio para audio. |
+
+| Aspecto               | Detalle                                                                                     |
+| --------------------- | ------------------------------------------------------------------------------------------- |
+| Estado documentado    | Preproducción. Prototipo pendiente de validar.                                             |
+| Plataformas previstas | Windows, macOS y demo web en itch.io.                                                       |
+| Motor                 | Unity 6 (6000.6.0f1), con URP 17.6.0.                                                       |
+| Controles y cámara   | Teclado y ratón con Input System 1.20.1. Cámara en tercera persona con Cinemachine 6.6.0. |
+| Producción           | C# para sistemas de juego, Blender para Voxel Art 3D y FL Studio para audio.                |
 
 ## Cómo consultar el GDD
 
@@ -33,4 +34,10 @@ Abre esta carpeta como bóveda en Obsidian para recorrer los enlaces entre notas
 
 ## Equipo
 
-Yoel Alfredo Canul Gijon, Renata Cortés Mancilla, Zaidy Itzamara Cruz Santiago y Brandon Michelle Reyes del Ángel.
+* Canul GijonYoel Alfredo
+* Cortés Mancilla Renata
+
+* Cruz Santiago Zaidy Itzamara
+* Reyes del Ángel Brandon Michelle
+
+* Lomeli Cruz Juan David
