@@ -52,7 +52,7 @@ Esta revisión documental contrasta las cifras, teclas y etiquetas del diseño d
 
 **Resultado obtenido:**
 
-**Estado:** Pendiente 
+**Estado:** Pendiente
 
 ### CP-02 · Cuclillas
 
@@ -70,7 +70,7 @@ Esta revisión documental contrasta las cifras, teclas y etiquetas del diseño d
 
 **Resultado obtenido:**
 
-**Estado:** Pendiente 
+**Estado:** Pendiente
 
 ### CP-03 · Radio de ruido
 
@@ -88,7 +88,7 @@ Esta revisión documental contrasta las cifras, teclas y etiquetas del diseño d
 
 **Resultado obtenido:**
 
-**Estado:** Pendiente 
+**Estado:** Pendiente
 
 ### CP-04 · Esconderse
 
@@ -106,7 +106,7 @@ Esta revisión documental contrasta las cifras, teclas y etiquetas del diseño d
 
 **Resultado obtenido:**
 
-**Estado:** Pendiente 
+**Estado:** Pendiente
 
 ### CP-05 · Lanzar una piedra
 
@@ -124,25 +124,7 @@ Esta revisión documental contrasta las cifras, teclas y etiquetas del diseño d
 
 **Resultado obtenido:**
 
-**Estado:** Pendiente 
-
-### CP-06 · Lanzar trompos en fila
-
-**Objetivo:** Comprobar que varios trompos abren un paso seguro.
-
-**Precondiciones:** Sala 5 de la Zona de práctica (`LANZAR TROMPOS`).
-
-**Pasos:**
-
-1. Presionar `clic derecho` hacia el primer blanco.
-2. Repetir con los demás blancos en secuencia.
-3. Avanzar por el camino de cempasúchil.
-
-**Resultado esperado:** El zumbido de cada trompo atrae al enemigo y deja libre el camino hacia la salida de la sala.
-
-**Resultado obtenido:**
-
-**Estado:** Pendiente 
+**Estado:** Pendiente
 
 ### CP-07 · Nahual y techo de roca
 
@@ -160,7 +142,7 @@ Esta revisión documental contrasta las cifras, teclas y etiquetas del diseño d
 
 **Resultado obtenido:**
 
-**Estado:** Pendiente 
+**Estado:** Pendiente
 
 ### CP-08 · Recompensa y salida de la Selva
 
@@ -178,7 +160,7 @@ Esta revisión documental contrasta las cifras, teclas y etiquetas del diseño d
 
 **Resultado obtenido:**
 
-**Estado:** Pendiente 
+**Estado:** Pendiente
 
 ### CP-09 · Diablo y vitrales
 
@@ -196,7 +178,7 @@ Esta revisión documental contrasta las cifras, teclas y etiquetas del diseño d
 
 **Resultado obtenido:**
 
-**Estado:** Pendiente 
+**Estado:** Pendiente
 
 ### CP-10 · Rendimiento y cambio de escena
 
@@ -214,12 +196,10 @@ Esta revisión documental contrasta las cifras, teclas y etiquetas del diseño d
 
 **Resultado obtenido:**
 
-**Estado:** Pendiente 
+**Estado:** Pendiente
 
 ## Revisión de entrada pendiente
 
 Con los carteles y las placas de los controles ya integrados en la Sala de controles y la Zona de práctica, la revisión pendiente de experiencia de entrada se centra en decidir y verificar las asignaciones definitivas de mando para las interacciones que hoy emplean `clic izquierdo` (piedra), `clic derecho` (trompo) y `E` (interactuar), y en confirmar que los textos de las placas coinciden con los controles reales del juego.
-
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Criterios de Calidad]] · [[03 - Bugs y Seguimiento]] →
